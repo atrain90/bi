@@ -1,0 +1,217 @@
+# Translation of Plugins - Invisible reCaptcha for WordPress - Development (trunk) in Greek
+# This file is distributed under the same license as the Plugins - Invisible reCaptcha for WordPress - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-04-02 10:42:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - Invisible reCaptcha for WordPress - Development (trunk)\n"
+
+#: engine/Admin/Pages/BaseAdminPage.php:32
+msgid "Need help? Have questions...?"
+msgstr "Χρειάζεστε βοήθεια; Έχετε απορίες...;"
+
+#: engine/Modules/Membership/UltraCommunity/UltraCommunityPublicModule.php:35
+#: engine/Modules/Membership/UltraCommunity/UltraCommunityPublicModule.php:53
+msgid "We've encountered an error while trying to validate reCaptcha!"
+msgstr "Παρουσιάστηκε ένα σφάλμα κατά την προσπάθεια επικύρωσης του reCaptcha!"
+
+#: engine/Modules/WooCommerce/WooCommercePublicModule.php:89
+msgid "Sorry, Google reCaptcha was not validated!"
+msgstr "Λυπάμαι, το Google reCaptcha δεν επικυρώθηκε!"
+
+#: engine/Modules/Membership/BuddyPress/BuddyPressPublicModule.php:35
+msgid "Google reCaptcha was not validated!"
+msgstr "Το Google reCaptcha δεν επικυρώθηκε!"
+
+#: engine/Modules/Membership/BuddyPress/BuddyPressAdminModule.php:61
+#: engine/Modules/Membership/UltraCommunity/UltraCommunityAdminModule.php:67
+#: engine/Modules/WooCommerce/WooCommerceAdminModule.php:97
+msgid " Protection Settings"
+msgstr "Ρυθμίσεις Προστασίας"
+
+#: engine/Controllers/ModulesController.php:75
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: engine/Controllers/ModulesController.php:65
+msgid "UltraCommunity"
+msgstr "UltraCommunity"
+
+#: engine/Modules/ContactForms/ContactFormsAdminModule.php:43
+msgid "A list of comma separated Gravity Forms IDs which should not be protected by Invisible reCaptcha"
+msgstr "Μια λίστα, χωρισμένων με κόμμα, IDs του Gravity Forms που δεν θα έπρεπε να προστατεύονται από το Αόρατο reCaptcha"
+
+#: engine/Modules/ContactForms/ContactFormsAdminModule.php:41
+msgid "Excluded Gravity Forms IDs"
+msgstr "Εξαιρεμένα IDs του Gravity Forms"
+
+#: engine/Modules/ContactForms/ContactFormsAdminModule.php:35
+msgid "Enable Protection for Gravity Forms"
+msgstr "Ενεργοποίηση Προστασίας για Gravity Forms"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:48
+msgid "The language to be used by Google for Badge and Challenge(if it will be shown)"
+msgstr "Η γλώσσα που θα χρησιμοποιείται από την Google για το Σήμα και το Ερώτημα (αν θα εμφανίζεται)"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:46
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:104
+msgid "Bottom Left"
+msgstr "Κάτω Αριστερά"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:103
+msgid "Bottom Right"
+msgstr "Κάτω Δεξιά"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:98
+msgid "Automatically detect"
+msgstr "Αυτόματος εντοπισμός"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:60
+msgid "Badge Custom CSS"
+msgstr "Προσαρμοσμένο CSS Σήματος"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:55
+msgid "Reposition the reCaptcha badge. The 'Inline' value allows you to style it using CSS"
+msgstr "Επανατοποθετήστε το σήμα reCaptcha. Η τιμή 'Inline' σας επιτρέπει να το στιλιζάρετε χρησιμοποιώντας CSS"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:62
+msgid "The CSS used to restyle the reCaptcha badge. This will be applied only if the badge position is set to Inline!"
+msgstr "Το CSS που χρησιμοποιείται για το στιλιζάρισμα του σήματος reCaptcha. Εφαρμόζεται μόνο όταν η θέση του σήματος είναι ρυθμισμένη σε Inline!"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:53
+msgid "Badge Position"
+msgstr "Θέση Σήματος"
+
+#: engine/Modules/Membership/BuddyPress/BuddyPressAdminModule.php:44
+#: engine/Modules/Membership/UltraCommunity/UltraCommunityAdminModule.php:50
+#: engine/Modules/Settings/SettingsAdminModule.php:85
+#: engine/Modules/WooCommerce/WooCommerceAdminModule.php:80
+#: engine/Modules/WordPress/WordPressAdminModule.php:69
+msgid "Your changes were successfully saved!"
+msgstr "Οι αλλαγές σας αποθηκεύτηκαν επιτυχώς!"
+
+#. Author of the plugin/theme
+msgid "Mihai Chelaru"
+msgstr "Mihai Chelaru"
+
+#: includes/utils/FontAwesomeIconParser.php:45
+msgid "No Icon"
+msgstr "Χωρίς Εικονίδιο"
+
+#: includes/task-scheduler/MchGdbcWpTaskScheduler.php:25
+msgid "Once Weekly"
+msgstr "Μια φορά την εβδομάδα"
+
+#: includes/task-scheduler/MchGdbcWpTaskScheduler.php:30
+msgid "Once a month"
+msgstr "Μια φορά τον μήνα"
+
+#: engine/Modules/WordPress/WordPressPublicModule.php:95
+#: engine/Modules/WordPress/WordPressPublicModule.php:107
+msgid "Registration Error!"
+msgstr "Σφάλμα Εγγραφής!"
+
+#: engine/Modules/WordPress/WordPressAdminModule.php:60
+msgid "WordPress Protection Settings"
+msgstr "Ρυθμίσεις Προστασίας WordPress"
+
+#: engine/Modules/WordPress/WordPressPublicModule.php:145
+msgid "Invalid username or incorrect password!"
+msgstr "Μη έγκυρο όνομα χρήστη ή εσφαλμένο συνθηματικό!"
+
+#: engine/Modules/WordPress/WordPressAdminModule.php:42
+msgid "Enable Comments Form Protection"
+msgstr "Ενεργοποίηση Προστασίας Φόρμας Σχολίων"
+
+#: engine/Modules/WooCommerce/WooCommercePublicModule.php:191
+#: engine/Modules/WordPress/WordPressPublicModule.php:164
+msgid "Comment Submission Failure"
+msgstr "Αποτυχία Υποβολής Σχόλιου"
+
+#: engine/Modules/WooCommerce/WooCommercePublicModule.php:191
+#: engine/Modules/WordPress/WordPressPublicModule.php:164
+msgid "Link Notifications are disabled!"
+msgstr "Οι Ειδοποιήσεις Συνδέσμου έχουν απενεργοποιηθεί!"
+
+#: engine/Modules/WooCommerce/WooCommercePublicModule.php:65
+#: engine/Modules/WooCommerce/WooCommercePublicModule.php:126
+msgid "Your entry appears to be spam!"
+msgstr "Η καταχώρισή σας μοιάζει με spam!"
+
+#: engine/Modules/WooCommerce/WooCommerceAdminModule.php:60
+msgid "Enable Product Review Form Protection"
+msgstr "Ενεργοποίηση Προστασίας Φόρμας Ανασκόπησης Προϊόντος"
+
+#: engine/Modules/WooCommerce/WooCommerceAdminModule.php:54
+msgid "Enable Reset Password Form Protection"
+msgstr "Ενεργοποίηση Προστασίας Φόρμας Επαναφοράς Συνθηματικού"
+
+#: engine/Modules/WooCommerce/WooCommerceAdminModule.php:48
+msgid "Enable Lost Password Form Protection"
+msgstr "Ενεργοποίηση Προστασίας Φόρμας Απώλειας Συνθηματικού"
+
+#: engine/Modules/Membership/BuddyPress/BuddyPressAdminModule.php:31
+#: engine/Modules/Membership/UltraCommunity/UltraCommunityAdminModule.php:37
+#: engine/Modules/WooCommerce/WooCommerceAdminModule.php:42
+#: engine/Modules/WordPress/WordPressAdminModule.php:36
+msgid "Enable Registration Form Protection"
+msgstr "Ενεργοποίηση Προστασίας Φόρμας Εγγραφής"
+
+#: engine/Modules/Membership/UltraCommunity/UltraCommunityAdminModule.php:31
+#: engine/Modules/WooCommerce/WooCommerceAdminModule.php:36
+#: engine/Modules/WordPress/WordPressAdminModule.php:30
+msgid "Enable Login Form Protection"
+msgstr "Ενεργοποίηση Προστασίας Φόρμας Σύνδεσης"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:40
+msgid "Your Secret Key"
+msgstr "Το Secret Key σας"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:34
+msgid "Your Site Key"
+msgstr "Το Site Key σας"
+
+#: engine/Modules/ContactForms/ContactFormsAdminModule.php:76
+msgid "Contact Forms Protection Settings"
+msgstr "Ρυθμίσεις Προστασίας Φορμών Επικοινωνίας"
+
+#: engine/Modules/ContactForms/ContactFormsAdminModule.php:29
+msgid "Enable Protection for Contact Form 7"
+msgstr "Ενεργοποίηση Προστασίας για το Contact Form 7"
+
+#: engine/Controllers/ModulesController.php:55
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: engine/Controllers/ModulesController.php:45
+msgid "Contact Forms"
+msgstr "Φόρμες Επικοινωνίας"
+
+#: engine/Controllers/ModulesController.php:35
+msgid "WordPress"
+msgstr "WordPress"
+
+#: engine/AdminEngine.php:19 engine/Controllers/ModulesController.php:25
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#. Description of the plugin/theme
+msgid "Google Invisible reCaptcha for WordPress."
+msgstr "Google Invisible reCaptcha for WordPress."
+
+#. Plugin Name of the plugin/theme
+msgid "Invisible reCaptcha"
+msgstr "Invisible reCaptcha"
+
+#: engine/Admin/Pages/SettingsAdminPage.php:29
+#: engine/Modules/Settings/SettingsAdminModule.php:73
+msgid "Invisible reCaptcha Settings"
+msgstr "Ρυθμίσεις Invisible reCaptcha"

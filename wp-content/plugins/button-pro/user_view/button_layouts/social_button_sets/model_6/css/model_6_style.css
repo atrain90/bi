@@ -1,0 +1,80 @@
+
+.btn_model_6 a {
+  background: #333;
+  color: #fff!important;
+  float: left;
+  margin: 0 5px!important;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.btn_model_6 a:hover {
+  -moz-transform: rotateX(-90deg);
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  color: #fff;
+}
+.btn_model_6 a:hover .fornt {
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.btn_model_6 a:hover .back_btn {
+  -moz-backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.btn_model_6 .front_btn, .btn_model_6 .back_btn {
+  width: 48px;
+  height: 48px;
+  background: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-transform: translateZ(18px);
+  -webkit-transform: translateZ(18px);
+  transform: translateZ(18px);
+  -moz-backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.btn_model_6 .back_btn {
+  font-size: 32px;
+  -moz-transform: rotateX(90deg) translateZ(18px);
+  -ms-transform: rotateX(90deg) translateZ(18px);
+  -webkit-transform: rotateX(90deg) translateZ(18px);
+  transform: rotateX(90deg) translateZ(18px);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.btn_model_6 .twitter .back_btn {
+  background: #00ACED;
+}
+.btn_model_6 .facebook .back_btn {
+  background: #3B579D;
+}
+.btn_model_6 .google-plus .back_btn {
+  background: #dd4a3a;
+}
+.btn_model_6 .linkedin .back_btn {
+  background: #007BB6;
+}
+.btn_model_6 .pinterest .back_btn {
+  background: #cb2026;
+}
+.btn_model_6 .instagram .back_btn {
+  background:#5f82ac; 
+}
+.btn_model_6 .vimeo .back_btn {
+  background:#67aaba; 
+}
+.btn_model_6 .skype .back_btn {
+  background: #13bfff;
+}
+.btn_model_6 .youtube .back_btn {
+  background: #d21921;
+}
+.btn_model_6 .tumblr .back_btn {
+  background:  #2d4762;
+}

@@ -1,0 +1,96 @@
+.btn_model_2 a {
+  overflow: hidden;
+  font-size: 26px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  margin: 0 5px!important;
+  color: #fff!important;
+}
+.btn_model_2 a:hover {
+  
+  text-shadow: 0px 0px #d5d5d5, 1px 1px #d5d5d5, 2px 2px #d5d5d5, 3px 3px #d5d5d5, 4px 4px #d5d5d5, 5px 5px #d5d5d5, 6px 6px #d5d5d5, 7px 7px #d5d5d5, 8px 8px #d5d5d5, 9px 9px #d5d5d5, 10px 10px #d5d5d5, 11px 11px #d5d5d5, 12px 12px #d5d5d5, 13px 13px #d5d5d5, 14px 14px #d5d5d5, 15px 15px #d5d5d5, 16px 16px #d5d5d5, 17px 17px #d5d5d5, 18px 18px #d5d5d5, 19px 19px #d5d5d5, 20px 20px #d5d5d5, 21px 21px #d5d5d5, 22px 22px #d5d5d5, 23px 23px #d5d5d5, 24px 24px #d5d5d5, 25px 25px #d5d5d5, 26px 26px #d5d5d5, 27px 27px #d5d5d5, 28px 28px #d5d5d5, 29px 29px #d5d5d5, 30px 30px #d5d5d5;
+}
+.btn_model_2 .twitter {
+  background: #00ACED;
+  text-shadow: 0px 0px #0087ba, 1px 1px #0087ba, 2px 2px #0087ba, 3px 3px #0087ba, 4px 4px #0087ba, 5px 5px #0087ba, 6px 6px #0087ba, 7px 7px #0087ba, 8px 8px #0087ba, 9px 9px #0087ba, 10px 10px #0087ba, 11px 11px #0087ba, 12px 12px #0087ba, 13px 13px #0087ba, 14px 14px #0087ba, 15px 15px #0087ba, 16px 16px #0087ba, 17px 17px #0087ba, 18px 18px #0087ba, 19px 19px #0087ba, 20px 20px #0087ba, 21px 21px #0087ba, 22px 22px #0087ba, 23px 23px #0087ba, 24px 24px #0087ba, 25px 25px #0087ba, 26px 26px #0087ba, 27px 27px #0087ba, 28px 28px #0087ba, 29px 29px #0087ba, 30px 30px #0087ba;
+}
+.btn_model_2 .twitter:hover {
+  color: #00ACED!important;
+}
+.btn_model_2 .facebook {
+  background: #3B579D;
+  text-shadow: 0px 0px #2d4278, 1px 1px #2d4278, 2px 2px #2d4278, 3px 3px #2d4278, 4px 4px #2d4278, 5px 5px #2d4278, 6px 6px #2d4278, 7px 7px #2d4278, 8px 8px #2d4278, 9px 9px #2d4278, 10px 10px #2d4278, 11px 11px #2d4278, 12px 12px #2d4278, 13px 13px #2d4278, 14px 14px #2d4278, 15px 15px #2d4278, 16px 16px #2d4278, 17px 17px #2d4278, 18px 18px #2d4278, 19px 19px #2d4278, 20px 20px #2d4278, 21px 21px #2d4278, 22px 22px #2d4278, 23px 23px #2d4278, 24px 24px #2d4278, 25px 25px #2d4278, 26px 26px #2d4278, 27px 27px #2d4278, 28px 28px #2d4278, 29px 29px #2d4278, 30px 30px #2d4278;
+}
+.btn_model_2 .facebook:hover {
+  color: #3B579D!important;
+}
+.btn_model_2 .google-plus {
+  background: #DD4A3A;
+  text-shadow: 0px 0px #c23122, 1px 1px #c23122, 2px 2px #c23122, 3px 3px #c23122, 4px 4px #c23122, 5px 5px #c23122, 6px 6px #c23122, 7px 7px #c23122, 8px 8px #c23122, 9px 9px #c23122, 10px 10px #c23122, 11px 11px #c23122, 12px 12px #c23122, 13px 13px #c23122, 14px 14px #c23122, 15px 15px #c23122, 16px 16px #c23122, 17px 17px #c23122, 18px 18px #c23122, 19px 19px #c23122, 20px 20px #c23122, 21px 21px #c23122, 22px 22px #c23122, 23px 23px #c23122, 24px 24px #c23122, 25px 25px #c23122, 26px 26px #c23122, 27px 27px #c23122, 28px 28px #c23122, 29px 29px #c23122, 30px 30px #c23122;
+}
+.btn_model_2 .google-plus:hover {
+  color: #DD4A3A!important;
+}
+.btn_model_2 .linkedin {
+  background: #007BB6;
+  text-shadow: 0px 0px #005983, 1px 1px #005983, 2px 2px #005983, 3px 3px #005983, 4px 4px #005983, 5px 5px #005983, 6px 6px #005983, 7px 7px #005983, 8px 8px #005983, 9px 9px #005983, 10px 10px #005983, 11px 11px #005983, 12px 12px #005983, 13px 13px #005983, 14px 14px #005983, 15px 15px #005983, 16px 16px #005983, 17px 17px #005983, 18px 18px #005983, 19px 19px #005983, 20px 20px #005983, 21px 21px #005983, 22px 22px #005983, 23px 23px #005983, 24px 24px #005983, 25px 25px #005983, 26px 26px #005983, 27px 27px #005983, 28px 28px #005983, 29px 29px #005983, 30px 30px #005983;
+}
+.btn_model_2 .linkedin:hover {
+  color: #007BB6!important;
+}
+.btn_model_2 .pinterest {
+  background: #CB2026;
+  text-shadow: 0px 0px #9f191e, 1px 1px #9f191e, 2px 2px #9f191e, 3px 3px #9f191e, 4px 4px #9f191e, 5px 5px #9f191e, 6px 6px #9f191e, 7px 7px #9f191e, 8px 8px #9f191e, 9px 9px #9f191e, 10px 10px #9f191e, 11px 11px #9f191e, 12px 12px #9f191e, 13px 13px #9f191e, 14px 14px #9f191e, 15px 15px #9f191e, 16px 16px #9f191e, 17px 17px #9f191e, 18px 18px #9f191e, 19px 19px #9f191e, 20px 20px #9f191e, 21px 21px #9f191e, 22px 22px #9f191e, 23px 23px #9f191e, 24px 24px #9f191e, 25px 25px #9f191e, 26px 26px #9f191e, 27px 27px #9f191e, 28px 28px #9f191e, 29px 29px #9f191e, 30px 30px #9f191e;
+}
+.btn_model_2 .pinterest:hover {
+  color: #CB2026!important;
+}
+
+.btn_model_2 .instagram {
+  background: #5f82ac;
+  text-shadow: 0px 0px #3b579d, 1px 1px #3b579d, 2px 2px #3b579d, 3px 3px #3b579d, 4px 4px #3b579d, 5px 5px #3b579d, 6px 6px #3b579d, 7px 7px #3b579d, 8px 8px #3b579d, 9px 9px #3b579d, 10px 10px #3b579d, 11px 11px #3b579d, 12px 12px #3b579d, 13px 13px #3b579d, 14px 14px #3b579d, 15px 15px #3b579d, 16px 16px #3b579d, 17px 17px #3b579d, 18px 18px #3b579d, 19px 19px #3b579d, 20px 20px #3b579d, 21px 21px #3b579d, 22px 22px #3b579d, 23px 23px #3b579d, 24px 24px #3b579d, 25px 25px #3b579d, 26px 26px #3b579d, 27px 27px #3b579d, 28px 28px #3b579d, 29px 29px #3b579d, 30px 30px #3b579d;
+}
+
+.btn_model_2 .instagram:hover {
+ color: #5f82ac!important;
+}
+
+
+.btn_model_2 .vimeo {
+  background: #67aaba;
+  text-shadow: 0px 0px #0195ba, 1px 1px #0195ba, 2px 2px #0195ba, 3px 3px #0195ba, 4px 4px #0195ba, 5px 5px #0195ba, 6px 6px #0195ba, 7px 7px #0195ba, 8px 8px #0195ba, 9px 9px #0195ba, 10px 10px #0195ba, 11px 11px #0195ba, 12px 12px #0195ba, 13px 13px #0195ba, 14px 14px #0195ba, 15px 15px #0195ba, 16px 16px #0195ba, 17px 17px #0195ba, 18px 18px #0195ba, 19px 19px #0195ba, 20px 20px #0195ba, 21px 21px #0195ba, 22px 22px #0195ba, 23px 23px #0195ba, 24px 24px #0195ba, 25px 25px #0195ba, 26px 26px #0195ba, 27px 27px #0195ba, 28px 28px #0195ba, 29px 29px #0195ba, 30px 30px #0195ba;
+}
+
+.btn_model_2 .vimeo:hover {
+ color: #67aaba!important;
+}
+
+.btn_model_2 .skype {
+  background: #13bfff;
+  text-shadow: 0px 0px #00a9ff, 1px 1px #00a9ff, 2px 2px #00a9ff, 3px 3px #00a9ff, 4px 4px #00a9ff, 5px 5px #00a9ff, 6px 6px #00a9ff, 7px 7px #00a9ff, 8px 8px #00a9ff, 9px 9px #00a9ff, 10px 10px #00a9ff, 11px 11px #00a9ff, 12px 12px #00a9ff, 13px 13px #00a9ff, 14px 14px #00a9ff, 15px 15px #00a9ff, 16px 16px #00a9ff, 17px 17px #00a9ff, 18px 18px #00a9ff, 19px 19px #00a9ff, 20px 20px #00a9ff, 21px 21px #00a9ff, 22px 22px #00a9ff, 23px 23px #00a9ff, 24px 24px #00a9ff, 25px 25px #00a9ff, 26px 26px #00a9ff, 27px 27px #00a9ff, 28px 28px #00a9ff, 29px 29px #00a9ff, 30px 30px #00a9ff;
+}
+
+.btn_model_2 .skype:hover {
+ color: #13bfff!important;
+}
+
+.btn_model_2 .youtube {
+  background: #d21921;
+  text-shadow: 0px 0px #9f191e, 1px 1px #9f191e, 2px 2px #9f191e, 3px 3px #9f191e, 4px 4px #9f191e, 5px 5px #9f191e, 6px 6px #9f191e, 7px 7px #9f191e, 8px 8px #9f191e, 9px 9px #9f191e, 10px 10px #9f191e, 11px 11px #9f191e, 12px 12px #9f191e, 13px 13px #9f191e, 14px 14px #9f191e, 15px 15px #9f191e, 16px 16px #9f191e, 17px 17px #9f191e, 18px 18px #9f191e, 19px 19px #9f191e, 20px 20px #9f191e, 21px 21px #9f191e, 22px 22px #9f191e, 23px 23px #9f191e, 24px 24px #9f191e, 25px 25px #9f191e, 26px 26px #9f191e, 27px 27px #9f191e, 28px 28px #9f191e, 29px 29px #9f191e, 30px 30px #9f191e;
+}
+
+.btn_model_2 .youtube:hover {
+ color: #d21921!important;
+}
+
+.btn_model_2 .tumblr {
+  background: #2d4762;
+  text-shadow: 0px 0px #183b60, 1px 1px #183b60, 2px 2px #183b60, 3px 3px #183b60, 4px 4px #183b60, 5px 5px #183b60, 6px 6px #183b60, 7px 7px #183b60, 8px 8px #183b60, 9px 9px #183b60, 10px 10px #183b60, 11px 11px #183b60, 12px 12px #183b60, 13px 13px #183b60, 14px 14px #183b60, 15px 15px #183b60, 16px 16px #183b60, 17px 17px #183b60, 18px 18px #183b60, 19px 19px #183b60, 20px 20px #183b60, 21px 21px #183b60, 22px 22px #183b60, 23px 23px #183b60, 24px 24px #183b60, 25px 25px #183b60, 26px 26px #183b60, 27px 27px #183b60, 28px 28px #183b60, 29px 29px #183b60, 30px 30px #183b60;
+}
+
+.btn_model_2 .tumblr:hover {
+ color: #2d4762!important;
+}
+
+

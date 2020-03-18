@@ -1,0 +1,31 @@
+{
+    "name": "timersys/geot-functions",
+    "description": "Base wordpress functions to use with GeotargetingWP plugins",
+    "keywords": ["geotargeting", "wordpress", "timersys"],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Damian Logghe",
+            "email": "info@timersys.com"
+        }
+    ],
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+		"php": ">=5.5",
+        "timersys/geotargetingwp": "dev-master",
+        "ip2location/ip2location-php": "8.*",
+        "maxmind-db/reader": "^1.1",
+        "jaybizzle/crawler-detect" :"1.*"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "files": ["src/functions_include.php"],
+        "psr-4": {
+            "GeotFunctions\\": "src/"
+        }
+    }
+}

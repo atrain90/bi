@@ -1,0 +1,441 @@
+#column {width:100%;position:relative;height:100%;}
+#column input[type="text"]{width:100%;display:block;}
+#column textarea{width: 100%;}
+.custom_media_image {
+	width: auto;
+height: 80px;
+text-align: center;
+display: block;
+	}
+
+a.custom_media_upload.picture {
+	height: 80px;
+width: 100%;
+padding: 27px;
+text-align: center;
+}	
+	
+#column #chart-list a {width:100%;}
+
+#column #chart-list a span {height:22px;width:17px;right:2px;position:absolute;opacity:0.4;}
+#column #chart-list a span:hover{opacity:1;}
+#column #chart-list a span.edit{right:20px;background:url("../images/sprite-admin.png") -51px 2px no-repeat;margin-left:4px;}
+#column #chart-list a span.delete{background:url("../images/sprite-admin.png") -17px 2px no-repeat;}
+#column #chart-list a.button {position:relative;}
+#column #chart-list a.button-primary span.edit{background-position:-34px 2px;}
+#column #chart-list a.button-primary span.delete{background-position:0px 2px;}
+#save-chart {width:100%;text-align:center;}
+
+.custom_media_upload {position:relative;display: block;}
+
+.tooltip{
+    background: #54b1ac;
+border-radius: 50%;
+width: 18px;
+color: #ffffff;
+height: 18px;
+display: inline-block;
+text-align: center;
+cursor:help;
+    position: relative;
+}
+.tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(data-title);
+    left: -50px;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 100px;
+}
+#imagecrop {width: 24px;
+height: 23px;
+position: absolute;
+bottom: 5px;
+left: 5px;
+display: block;background:url("../images/crop_image.png");}
+#cropoverlay {width: 98%;
+height: 95%;
+position: absolute;
+
+padding:10px;
+background: rgba(255, 255, 255, 0.81);
+z-index: 9999;}
+#crop {
+background: #ffffff;
+text-align:center;
+width: 80%;
+display: block;
+margin: 0 auto;
+height: 99%;
+border: 1px solid #ccc;
+} 
+#cropimage {max-width:90%;max-height:50%;}
+
+#column #loading {line-height:24px;padding:8px 49px;background:url("../images/ajax-loader.gif") no-repeat #ffffff;color:#888888;font-style:italic;border-radius:5px;background-position: 13px; }
+
+
+#chart-list li input{display:inline-block;margin-top:5px;}
+#chart-list li input[type="text"]{display:inline-block;width:70%;}
+#chart-list li input[type="submit"]{display:inline-block;width:28%;}
+
+#chart-list li  #delete-chart input[type="submit"]{width:15%;margin:2%;}
+
+#person-list {background: #FbFbFb;
+border-radius: 5px;
+border: 1px solid #BBBBBB;
+padding: 5px;
+height: 180px;
+position: relative;
+overflow-y: scroll;}
+
+#person-list span.button {display:inline;}
+#person-list .delete {
+    background-image:url("../images/sprite-admin.png") !important;
+    background-position:1px 2px !important;
+    background-repeat:no-repeat !important;display:inline}
+
+#person-list a.person {
+	display: block;
+height: 30px;
+text-decoration: none;
+padding: 5px;
+border-bottom: 1px dashed #999;
+}
+
+#person-list a.person span{
+	margin-right: 2px;
+float: right;
+position: relative;
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;;
+    vertical-align: top;
+}
+
+#person-list a.person span:hover {
+    background: #fafafa;
+    border-color: #999;
+    color: #23282d;
+}
+
+#person-list a.person span.delete {
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+
+#person-list a.person img{
+height:80%;width:auto;vertical-align: middle;
+}
+
+
+.custom_media_upload.picture{
+background: #f3f3f3;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f3f3f3));background-image: -webkit-linear-gradient(top,#fff,#f3f3f3);background-image: -moz-linear-gradient(top,#fff,#f3f3f3);background-image: -ms-linear-gradient(top,#fff,#f3f3f3);background-image: -o-linear-gradient(top,#fff,#f3f3f3);background-image: linear-gradient(to bottom,#fff,#f3f3f3);border-color: #999;color: #222;text-shadow: 0 1px 0 #fff;display: inline-block;text-decoration: none;font-size: 12px;line-height: 23px;height: 24px;margin: 0;padding: 0 10px 1px;cursor: pointer;border-width: 1px;border-style: solid;-webkit-border-radius: 3px;-webkit-appearance: none;border-radius: 3px;white-space: nowrap;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
+}
+.custom_media_upload.picture:before {content: " ";
+background: url("../images/picture.png") center center no-repeat;
+width: 24px;
+height: 22px;
+display: inline-block;
+line-height: 20px;
+float: left;
+margin-left: -7px;}
+#chart {width:25%;}
+#team-chart {width:50%;height:100%;position:relative;}
+#chartgraph {height: 100%;
+padding: 1%;position:relative;overflow-y: scroll;background:url("../images/pattern.gif") repeat;border:1px solid #aeaeae;}
+#choose-theme {height:100px;}
+
+
+#person {width:25%;}
+.cols {margin:0;padding:0;padding:10px;display:block;float:left;-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+#person.hidden,.tips.hidden,#socialInfo.hidden{
+    display: none !important;
+}
+.tips{background: rgba(255,255,255,0.8);
+padding: 20px;
+font-style: italic;
+color: #555;
+border-radius: 5px;
+display: inline-block;
+margin: 0 auto;
+width: 92%;
+text-align: center;}
+#media-upload-hidden{opacity:0;height:0;margin:0;padding:0;}
+.node img{
+width: 100%;
+height: auto;
+position: absolute;
+top: 0;
+z-index: -2;
+left: 0;	
+}
+
+.dd.ddcommon.borderRadius, .dd.ddcommon.borderRadiusTp {width:100% !important;}
+
+table.bg {
+background: url("../images/bgparent.png") repeat-x 0px 0px;
+padding: 7px;margin: 10px;
+}
+
+/* Basic styling */
+/* Draw the lines */
+
+.jOrgChart .line {
+  height                : 20px;
+  width                 : 4px;
+}
+
+.jOrgChart .down {
+  background-color 		: white;	
+  margin 				: 0px auto;
+}
+
+.jOrgChart .top {
+  border-top          : 3px solid white;
+
+}
+
+.jOrgChart .left {
+  border-right          : 2px solid white;
+  float: none;
+}
+
+.jOrgChart .right {
+  border-left           : 2px solid white;
+  float: none;
+}
+
+/* node cell */
+.jOrgChart td {
+  text-align            : center;
+  vertical-align        : top;
+  padding               : 0;
+  background            : none !important;
+  border                : none;
+}
+
+/* The node */
+.jOrgChart .node {
+  background-color 		: #5bc4be;
+  display               : inline-block;
+  width                 : 100px;
+  position				: relative;
+  height                : 80px;
+  cursor				: move;
+  z-index 				: 10;
+  margin               : 0 2px;
+  overflow				: visible;
+  color:#ffffff;
+  border:3px solid #ffffff;
+  border-radius    :5px;
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+   text-shadow: 1px 1px 1px black;
+  filter: dropshadow(color=#000000, offx=1, offy=1);
+}
+
+
+.jOrgChart .node .imgnode {
+	width: 94px;
+height: 74px;
+overflow: hidden;
+position: absolute;
+top: 0;
+left: 0;
+
+}
+
+.jOrgChart .node[data-id="1"] {
+	cursor		:default;
+	}
+
+/* jQuery drag 'n drop */
+
+.drag-active {
+  border-style			: dotted !important;
+}
+
+
+.drag-active:not(.empty):before{
+content:" ";
+background:url("../images/hoverin.png");
+display:block;
+position:absolute;
+bottom:0;
+left:0;
+width:94px;
+height:22px;
+z-index:99999;	
+}
+
+.after{
+width: 17px;
+height: 70px;
+background: url("../images/rightdrop.png") no-repeat;
+display: block;
+margin-left: 97px;
+top: 60px;
+margin-top: -86px;
+position: relative;
+}
+.before{
+width: 17px;
+height: 70px;
+background: url("../images/leftdrop.png") no-repeat;
+position: relative;
+top: 60px;
+margin-left: -21px;
+margin-top: -60px;
+}
+
+.drop-hover {
+  border-style			: solid !important;
+  border-color 			: black !important;
+}
+
+.jOrgChart .node.empty {
+	display:none;
+	opacity:0.5;
+	width: 30px;
+	background:url("../images/between.png") 1px 50% no-repeat #5bc4be;
+}
+
+.node-container.first {
+
+}
+
+
+a.edit {
+width: 19px;
+height: 19px;
+position: absolute;
+bottom: 3px;
+right: 3px;
+display: block;
+background: url("../images/edit.png") no-repeat;}
+
+a.trash {
+width: 19px;
+height: 19px;
+position: absolute;
+bottom: 3px;
+right: 24px;
+display: block;
+background: url("../images/trash.png") no-repeat;}
+
+#loading {background:#ffffff;opacity:0.7;padding:8px 16px 8px 49px !important;position: absolute;
+right: 10px;}
+
+.fancybox-overlay {z-index:9999 !important;}
+#teamchart_editbtns {padding-top:65px;}
+.cke_inner {top:32px !important;}
+
+#add_team_chart span.dashicons.dashicons-networking {
+    vertical-align: text-bottom;
+}
+
+input#disableTextEditor {
+    margin-left: 10px;
+}
+
+input#submit-person {
+    margin-top: 20px;
+}
+
+div.disableTextEditor {
+    margin-top: 20px;
+}
+
+#chart-list ul li {
+    margin-bottom: 6px;
+}
+
+a.teamchart-addnew,
+a#save-chart,
+#savecrop,
+#closecrop{
+    display: inline-block;
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.tc-element-button {
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    transition-property: border,background,color;
+    transition-duration: .05s;
+    transition-timing-function: ease-in-out;
+}
+
+.tc-element-button:focus {
+    background: #5b9dd9;
+    border-color: #006799;
+    box-shadow: 0 0 3px rgba(0,115,170,.8);
+    color: #fff;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    outline: none;
+}
+
+
+ #save-chart{
+     font-size: 14px !important;
+     height: 46px !important;
+     line-height: 44px !important;
+     padding: 0 36px !important;
+}
+

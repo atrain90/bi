@@ -1,0 +1,629 @@
+# Translation of Plugins - Multi Step Form - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Multi Step Form - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-06-14 08:57:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Multi Step Form - Stable (latest release)\n"
+
+#: includes/admin/class-mondula-multistep-forms-list-table.php:88
+#: trunk/includes/admin/class-mondula-multistep-forms-list-table.php:88
+msgid "Duplicate"
+msgstr "Dubbel"
+
+#. Author of the plugin/theme
+msgid "Mondula GmbH"
+msgstr "Mondula GmbH"
+
+#. Description of the plugin/theme
+msgid "Create and embed Multi Step Form."
+msgstr "Multi Step Form aanmaken en insluiten."
+
+#. #-#-#-#-#  multi-step-form-code.pot (Multi Step Form 1.1.8)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  multi-step-form-code.pot (Multi Step Form 1.1.8)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.mondula.com/"
+msgstr "http://www.mondula.com/"
+
+#. Plugin Name of the plugin/theme
+msgid "Multi Step Form"
+msgstr "Multi Step Form"
+
+#: includes/lib/class-mondula-multistep-forms-wizard.php:301
+#: trunk/includes/lib/class-mondula-multistep-forms-wizard.php:301
+msgid "End of form submission"
+msgstr "Einde formulier indienen"
+
+#: includes/lib/class-mondula-multistep-forms-wizard.php:229
+#: trunk/includes/lib/class-mondula-multistep-forms-wizard.php:229
+msgid "Next Step"
+msgstr "Volgende stap"
+
+#: includes/lib/class-mondula-multistep-forms-wizard.php:228
+#: trunk/includes/lib/class-mondula-multistep-forms-wizard.php:228
+msgid "Previous Step"
+msgstr "Vorige stap"
+
+#: includes/lib/class-mondula-multistep-forms-wizard.php:213
+#: trunk/includes/lib/class-mondula-multistep-forms-wizard.php:213
+msgid "Submit"
+msgstr "Verzenden"
+
+#: includes/lib/class-mondula-multistep-forms-wizard.php:205
+#: trunk/includes/lib/class-mondula-multistep-forms-wizard.php:205
+msgid "SHOW SUMMARY"
+msgstr "Bekijk gegevens"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:79
+#: trunk/includes/lib/class-mondula-multistep-forms-taxonomy.php:79
+msgid "No %s found"
+msgstr "Geen %s gevonden"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:78
+#: trunk/includes/lib/class-mondula-multistep-forms-taxonomy.php:78
+msgid "Choose from the most used %s"
+msgstr "Meest gebruikte %s kiezen"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:77
+#: trunk/includes/lib/class-mondula-multistep-forms-taxonomy.php:77
+msgid "Add or remove %s"
+msgstr "Toon of verwijder %s"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:76
+#: trunk/includes/lib/class-mondula-multistep-forms-taxonomy.php:76
+msgid "Separate %s with commas"
+msgstr "%s afscheiden met komma's"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:75
+#: trunk/includes/lib/class-mondula-multistep-forms-taxonomy.php:75
+msgid "Popular %s"
+msgstr "Populaire %s"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:73
+#: trunk/includes/lib/class-mondula-multistep-forms-taxonomy.php:73
+msgid "Parent %s:"
+msgstr "Hoofd %s:"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:71
+#: trunk/includes/lib/class-mondula-multistep-forms-taxonomy.php:71
+msgid "New %s Name"
+msgstr "Nieuwe %s Naam"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:69
+#: trunk/includes/lib/class-mondula-multistep-forms-taxonomy.php:69
+msgid "Update %s"
+msgstr "actualiseren %s"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:141
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:141
+msgid "%1$s %2$s restored from the Trash."
+msgid_plural "%1$s %3$s restored from the Trash."
+msgstr[0] "%1$s %2$s hersteld van prullenbak."
+msgstr[1] "%1$s %3$s hersteld van prullenbak."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:140
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:140
+msgid "%1$s %2$s moved to the Trash."
+msgid_plural "%1$s %3$s moved to the Trash."
+msgstr[0] "%1$s %2$s naar prullenbak verplaatst."
+msgstr[1] "%1$s %3$s naar prullenbak verplaatst."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:139
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:139
+msgid "%1$s %2$s permanently deleted."
+msgid_plural "%1$s %3$s permanently deleted."
+msgstr[0] "%1$s %2$s permanent verwijderd."
+msgstr[1] "%1$s %3$s permanent verwijderd."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:138
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:138
+msgid "%1$s %2$s not updated, somebody is editing it."
+msgid_plural "%1$s %3$s not updated, somebody is editing them."
+msgstr[0] "%1$s %2$s niet aangepast, iemand anders voert aanpassingen uit."
+msgstr[1] "%1$s %3$s niet aangepast, iemand anders voert aanpassingen uit."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:137
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:137
+msgid "%1$s %2$s updated."
+msgid_plural "%1$s %3$s updated."
+msgstr[0] "%1$s %2$s aangepast."
+msgstr[1] "%1$s %3$s aangepast."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:122
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:122
+msgid "%1$s draft updated. %2$sPreview %3$s%4$s."
+msgstr "%1$s concept aangepast. %2$sVoortvertoning %3$s%4$s."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:121
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:121
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:121
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:121
+msgid "%1$s scheduled for: %2$s. %3$sPreview %4$s%5$s."
+msgstr "%1$s voorzien voor: %2$s. %3$sVoortvertoning %4$s%5$s."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:120
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:120
+msgid "%1$s submitted. %2$sPreview post%3$s%4$s."
+msgstr "%1$s verzonden. %2$sBekijk berichtt%3$s%4$s."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:119
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:119
+msgid "%1$s saved."
+msgstr "%1$s opgeslagen."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:118
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:118
+msgid "%1$s published. %2$sView %3$s%4s."
+msgstr "%1$s gepubliceerd. %2$sBekijk %3$s%4s."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:116
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:116
+msgid "%1$s updated."
+msgstr "%1$s aangepast."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:115
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:115
+msgid "Custom field deleted."
+msgstr "Aangepast veld verwijderd"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:114
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:114
+msgid "Custom field updated."
+msgstr "Aangepast veld aangepast"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:113
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:113
+msgid "%1$s updated. %2$sView %3$s%4$s."
+msgstr "%1$s aangepast. %2$sBekijk %3$s%4$s."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:76
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:72
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:76
+#: trunk/includes/lib/class-mondula-multistep-forms-taxonomy.php:72
+msgid "Parent %s"
+msgstr "Hoofd %s"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:75
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:75
+msgid "No %s Found In Trash"
+msgstr "Geen %s gevonden in prullenbak"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:74
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:74
+msgid "No %s Found"
+msgstr "Geen %s gevonden"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:73
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:74
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:73
+#: trunk/includes/lib/class-mondula-multistep-forms-taxonomy.php:74
+msgid "Search %s"
+msgstr "Zoeken %s"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:72
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:68
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:72
+#: trunk/includes/lib/class-mondula-multistep-forms-taxonomy.php:68
+msgid "View %s"
+msgstr "Bekijk %s"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:71
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:66
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:71
+#: trunk/includes/lib/class-mondula-multistep-forms-taxonomy.php:66
+msgid "All %s"
+msgstr "Alles %s"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:70
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:70
+msgid "New %s"
+msgstr "Nieuw %s"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:69
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:67
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:69
+#: trunk/includes/lib/class-mondula-multistep-forms-taxonomy.php:67
+msgid "Edit %s"
+msgstr "%s bewerken"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:68
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:70
+#: trunk/includes/lib/class-mondula-multistep-forms-post-type.php:68
+#: trunk/includes/lib/class-mondula-multistep-forms-taxonomy.php:70
+msgid "Add New %s"
+msgstr "Nieuw toevoegen %s"
+
+#: includes/lib/class-mondula-multistep-forms-admin-api.php:160
+#: trunk/includes/lib/class-mondula-multistep-forms-admin-api.php:160
+msgid "Remove image"
+msgstr "Verwijder afbeelding"
+
+#: includes/lib/class-mondula-multistep-forms-admin-api.php:159
+#: trunk/includes/lib/class-mondula-multistep-forms-admin-api.php:159
+msgid "Upload new image"
+msgstr "Nieuwe afbeelding opladen"
+
+#: includes/lib/class-mondula-multistep-forms-admin-api.php:159
+#: trunk/includes/lib/class-mondula-multistep-forms-admin-api.php:159
+msgid "Use image"
+msgstr "Gebruik afbeelding"
+
+#: includes/lib/class-mondula-multistep-forms-admin-api.php:159
+#: trunk/includes/lib/class-mondula-multistep-forms-admin-api.php:159
+msgid "Upload an image"
+msgstr "Laad een afbeelding"
+
+#: includes/class-mondula-multistep-forms.php:171
+#: includes/lib/class-mondula-multistep-forms-wizard.php:207
+#: trunk/includes/class-mondula-multistep-forms.php:171
+#: trunk/includes/lib/class-mondula-multistep-forms-wizard.php:207
+msgid "Please check the highlighted fields."
+msgstr "Bekijk de opgelichte velden."
+
+#: includes/class-mondula-multistep-forms.php:170
+#: includes/lib/class-mondula-multistep-forms-wizard.php:207
+#: trunk/includes/class-mondula-multistep-forms.php:170
+#: trunk/includes/lib/class-mondula-multistep-forms-wizard.php:207
+msgid "Some required Fields are empty"
+msgstr "Sommige verplichte velden zijn leeg"
+
+#: includes/class-mondula-multistep-forms.php:169
+#: trunk/includes/class-mondula-multistep-forms.php:169
+msgid "This field is required"
+msgstr "Dit is een verplicht veld"
+
+#: includes/class-mondula-multistep-forms.php:168
+#: trunk/includes/class-mondula-multistep-forms.php:168
+msgid "Please fill all the required fields!"
+msgstr "Vul alle verplichte velden in!"
+
+#: includes/class-mondula-multistep-forms.php:166
+#: trunk/includes/class-mondula-multistep-forms.php:166
+msgid "hide summary"
+msgstr "Verberg overzicht"
+
+#: includes/class-mondula-multistep-forms.php:165
+#: trunk/includes/class-mondula-multistep-forms.php:165
+msgid "show summary"
+msgstr "Toon overzicht"
+
+#: includes/class-mondula-multistep-forms.php:164
+#: includes/lib/class-mondula-multistep-forms-block-file.php:32
+#: trunk/includes/class-mondula-multistep-forms.php:164
+#: trunk/includes/lib/class-mondula-multistep-forms-block-file.php:32
+msgid "Choose a file"
+msgstr "Kies een bestand"
+
+#: includes/class-mondula-multistep-forms.php:163
+#: trunk/includes/class-mondula-multistep-forms.php:163
+msgid "Uploading file"
+msgstr "Bestand laadt op"
+
+#: includes/class-mondula-multistep-forms.php:162
+#: trunk/includes/class-mondula-multistep-forms.php:162
+msgid "submit failed"
+msgstr "Verzenden mislukt"
+
+#: includes/class-mondula-multistep-forms.php:161
+#: trunk/includes/class-mondula-multistep-forms.php:161
+msgid "success"
+msgstr "gelukt"
+
+#: includes/class-mondula-multistep-forms.php:160
+#: trunk/includes/class-mondula-multistep-forms.php:160
+msgid "sending data"
+msgstr "verstuur data"
+
+#: includes/class-mondula-multistep-forms-settings.php:170
+#: includes/class-mondula-multistep-forms-settings.php:179
+#: includes/class-mondula-multistep-forms.php:256
+#: includes/class-mondula-multistep-forms.php:265
+#: trunk/includes/class-mondula-multistep-forms-settings.php:170
+#: trunk/includes/class-mondula-multistep-forms-settings.php:179
+#: trunk/includes/class-mondula-multistep-forms.php:256
+#: trunk/includes/class-mondula-multistep-forms.php:265
+msgid "Cheatin&#8217; huh?"
+msgstr "Valsspelen?"
+
+#: includes/class-mondula-multistep-forms-settings.php:118
+#: trunk/includes/class-mondula-multistep-forms-settings.php:118
+msgid "Choose a color for the buttons"
+msgstr "Kies een kleur voor de knoppen"
+
+#: includes/class-mondula-multistep-forms-settings.php:117
+#: trunk/includes/class-mondula-multistep-forms-settings.php:117
+msgid "Button Color"
+msgstr "Knopkleur"
+
+#: includes/class-mondula-multistep-forms-settings.php:111
+#: trunk/includes/class-mondula-multistep-forms-settings.php:111
+msgid "Choose a color for the steps to follow"
+msgstr "Kies een kleur voor de volgende stappen"
+
+#: includes/class-mondula-multistep-forms-settings.php:110
+#: trunk/includes/class-mondula-multistep-forms-settings.php:110
+msgid "Next Step Color"
+msgstr "'Volgende stap' kleur"
+
+#: includes/class-mondula-multistep-forms-settings.php:104
+#: trunk/includes/class-mondula-multistep-forms-settings.php:104
+msgid "Choose a color for the completed steps"
+msgstr "Kies een kleur voor de afgelopen stappen"
+
+#: includes/class-mondula-multistep-forms-settings.php:103
+#: trunk/includes/class-mondula-multistep-forms-settings.php:103
+msgid "Visited Step Color"
+msgstr "Bezochte stappen kleur"
+
+#: includes/class-mondula-multistep-forms-settings.php:97
+#: trunk/includes/class-mondula-multistep-forms-settings.php:97
+msgid "Choose a color for the active step"
+msgstr "Kies een kleur voor de actieve stap"
+
+#: includes/class-mondula-multistep-forms-settings.php:96
+#: trunk/includes/class-mondula-multistep-forms-settings.php:96
+msgid "Active Step Color"
+msgstr "'Actieve stap' kleur"
+
+#: includes/class-mondula-multistep-forms-settings.php:83
+#: trunk/includes/class-mondula-multistep-forms-settings.php:83
+msgid "Show progress bar"
+msgstr "Toon voortgangbalk"
+
+#: includes/class-mondula-multistep-forms-settings.php:82
+#: trunk/includes/class-mondula-multistep-forms-settings.php:82
+msgid "Progress Bar"
+msgstr "Voortgangbalk"
+
+#: includes/class-mondula-multistep-forms-settings.php:74
+#: trunk/includes/class-mondula-multistep-forms-settings.php:74
+msgid "Send copy of submitted data to user"
+msgstr "Verstuur een kopie van de verstuurde data naar de gebruiker"
+
+#: includes/class-mondula-multistep-forms-settings.php:73
+#: trunk/includes/class-mondula-multistep-forms-settings.php:73
+msgid "CC"
+msgstr "CC"
+
+#: includes/class-mondula-multistep-forms-settings.php:67
+#: trunk/includes/class-mondula-multistep-forms-settings.php:67
+msgid "Display Summary at the end of each form"
+msgstr "Toon het overzicht op het einde van elk formulier"
+
+#: includes/class-mondula-multistep-forms-settings.php:66
+#: trunk/includes/class-mondula-multistep-forms-settings.php:66
+msgid "Summary"
+msgstr "Overzicht"
+
+#: includes/class-mondula-multistep-forms-settings.php:56
+#: trunk/includes/class-mondula-multistep-forms-settings.php:56
+msgid "Choose formatting for form emails"
+msgstr "Kies een formaat voor je formulier e-mails"
+
+#: includes/class-mondula-multistep-forms-settings.php:55
+#: trunk/includes/class-mondula-multistep-forms-settings.php:55
+msgid "Mail Format"
+msgstr "E-mail formaat"
+
+#: includes/class-mondula-multistep-forms-settings.php:40
+#: trunk/includes/class-mondula-multistep-forms-settings.php:40
+msgid "Styling"
+msgstr "Opmaak"
+
+#: includes/class-mondula-multistep-forms-settings.php:36
+#: trunk/includes/class-mondula-multistep-forms-settings.php:36
+msgid "Email Settings"
+msgstr "E-mail instellingen"
+
+#: includes/class-mondula-multistep-forms-settings-api.php:282
+#: trunk/includes/class-mondula-multistep-forms-settings-api.php:282
+msgid "Choose File"
+msgstr "Kies bestand"
+
+#: includes/admin/class-mondula-multistep-forms-list-table.php:87
+#: trunk/includes/admin/class-mondula-multistep-forms-list-table.php:87
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: includes/admin/class-mondula-multistep-forms-list-table.php:86
+#: trunk/includes/admin/class-mondula-multistep-forms-list-table.php:86
+msgid "Edit"
+msgstr "Aanpassen"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:260
+#: includes/admin/class-mondula-multistep-forms-admin.php:283
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:260
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:283
+msgid "Save"
+msgstr "Opslaan"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:161
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:161
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:106
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:106
+msgid "Paragraph text"
+msgstr "Paragraaf tekst"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:105
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:105
+msgid "Text/HTML"
+msgstr "Text/HTML"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:101
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:101
+msgid "Enable search"
+msgstr "De zoekfunctie aanzetten"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:100
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:100
+msgid "Options (one per line)"
+msgstr "Opties (één per regel)"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:97
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:97
+msgid "Multiple Selection"
+msgstr "Meervoudige selectie"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:96
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:96
+msgid "Add option"
+msgstr "Optie toevoegen"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:95
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:95
+msgid "Options"
+msgstr "Opties"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:94
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:94
+msgid "Option"
+msgstr "Optie"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:93
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:93
+msgid "Header"
+msgstr "Header"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:91
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:91
+msgid "Required"
+msgstr "Verplicht"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:89
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:89
+msgid "Label"
+msgstr "Label"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:88
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:88
+msgid "Add Element"
+msgstr "Element toevoegen"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:87
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:87
+msgid "Add Section"
+msgstr "Sectie toevoegen"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:86
+#: includes/admin/class-mondula-multistep-forms-admin.php:271
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:86
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:271
+msgid "Add Step"
+msgstr "Stap toevoegen"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:85
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:85
+msgid "Section Title"
+msgstr "Sectie titel"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:84
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:84
+msgid "Step description"
+msgstr "Stap omschrijving"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:83
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:83
+msgid "Step Headline"
+msgstr "Stap hoofding"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:82
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:82
+msgid "Step Title"
+msgstr "Stap titel"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:80
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:80
+msgid "Do you really want to delete this block?"
+msgstr "Weet je zeker dat je dit blok wilt verwijderen?"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:79
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:79
+msgid "Do you really want to delete this section?"
+msgstr "Weet je zeker dat je deze sectie wilt verwijderen?"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:78
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:78
+msgid "Do you really want to delete this step?"
+msgstr "Weet je zeker dat je deze stap wilt verwijderen?"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:77
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:77
+msgid "ERROR: only 5 steps are allowed in the free version"
+msgstr "FOUT: er zijn slechts 5 stappen toegelaten in deze gratis versie"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:76
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:76
+msgid "WARNING: You need to provide title for the form"
+msgstr "WAARSCHUWING: je dient een titel op te geven voor dit formulier"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:75
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:75
+msgid "WARNING: You need to provide a title for each section"
+msgstr "WAARSCHUWING:je dient een titel op te geven voor elke sectie"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:74
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:74
+msgid "WARNING: You need to provide a title for each step"
+msgstr "WAARSCHUWING: je dient een titel op te geven voor elke stap"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:73
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:73
+msgid "You need to provide an email subject"
+msgstr "Je dient een onderwerp op te geven in je e-mail"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:72
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:72
+msgid "You need to enter a valid email address"
+msgstr "Je dient een geldig e-mailadres in te vullen"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:68
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:68
+msgid "Provide a static text block for explanations or additional info. You can use HTML for formatting."
+msgstr "Een vaste blok voor uitleg of bijkomende informatie. Hiervoor kan je HTML gebruiken."
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:67
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:67
+msgid "Multi-Select uses checkboxes. Single-Select has radio-buttons."
+msgstr "Meerkeuze checkbox. Radiobuttons hebben een enkelvoudige keuze"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:66
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:66
+msgid "remove element"
+msgstr "verwijder element"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:65
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:65
+msgid "remove section"
+msgstr "verwijder sectie"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:64
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:64
+msgid "remove step"
+msgstr "verwijder stap"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:63
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:63
+msgid "The step description is displayed below the step headline"
+msgstr "De omschrijving van de stap wordt weergegeven onder de hoofding"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:62
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:62
+msgid "The step headline is displayed above the progress bar"
+msgstr "De staphooding wordt weergegeven boven de voortgangbalk"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:61
+#: trunk/includes/admin/class-mondula-multistep-forms-admin.php:61
+msgid "The step title is displayed below the progress bar"
+msgstr "De staptitel wordt weergegeven onder de voortgangbalk"

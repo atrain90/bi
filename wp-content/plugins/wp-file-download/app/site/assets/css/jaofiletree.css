@@ -1,0 +1,124 @@
+#jao {
+    padding: 10px;
+}
+
+ul.jaofiletree {
+    font-family: robotomedium, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 20px !important;
+    padding: 0 !important;
+    margin: 10px 0 0 0 !important;
+}
+
+ul.jaofiletree li {
+    list-style: none;
+    padding: 0 !important;
+    padding-left: 20px !important;
+    margin: 5px 0 !important;
+    white-space: nowrap;
+}
+
+ul.jaofiletree a {
+    color: #666;
+    text-decoration: none;
+    box-shadow: none;
+    display: inline-block;
+    padding: 0px 2px;
+    font-size: 14px;
+    text-transform: none;
+}
+
+ul.jaofiletree a:hover {
+    font-weight: bold;
+}
+
+ul.jaofiletree li.drive > a,
+ul.jaofiletree li.selected > a {
+    font-weight: bold;
+}
+
+.jaofiletree li.directory .icon-open-close:before {
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    font-family: Material-Design-Iconic-Font;
+    font-size: 17px;
+}
+
+.icon-open-close {
+    width: 15px;
+    height: 16px;
+    float: left;
+}
+
+.icon-open-close:hover {
+    cursor: pointer;
+}
+
+.jaofiletree li.zmdi-perm-media {
+    font-size: 14px
+}
+
+.jaofiletree .zmdi-folder,
+.jaofiletree .zmdi-folder-open {
+    font-size: 15px;
+    margin-top: 2px;
+    margin-left: 3px;
+    color: #888888;
+    font-weight: bold
+}
+
+/*. jaofiletree li.drive { background: url(../images/jao/drive.png) left top no-repeat; } */
+
+.jaofiletree li.file {
+    background: url(../images/jao/file.png) left top no-repeat;
+}
+
+.jaofiletree li.wait {
+    background: url(../images/jao/spinner.gif) left top no-repeat;
+}
+
+.jaofiletree li.directory .icon-open-close:before {
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    font-family: Material-Design-Iconic-Font;
+    font-size: 17px;
+}
+
+.jaofiletree li.directory.expanded .icon-open-close:before {
+    content: '\f2f2';
+    font-size: 22px;
+}
+
+.jaofiletree li.directory.collapsed .icon-open-close:before {
+    content: '\f2f6';
+    color: #888;
+    font-size: 22px;
+}
+
+.jaofiletree li.directory.selected {
+    color: #4285f4;
+}
+
+.jaofiletree li.directory.selected > a {
+    color: #4285f4;
+}
+
+.jaofiletree li.directory.selected > .zmdi-folder:before {
+    color: #4285f4;
+}
+
+.jaofiletree li.directory.selected > .icon-open-close:before {
+    color: #4285f4;
+}
+
+.jaofiletree li.directory.collapsed .icon-open-close:hover:before {
+    content: '\f2f6';
+    color: #555;
+    font-size: 22px;
+}
+
+.jaofiletree .scrolly {
+    overflow: auto;
+}

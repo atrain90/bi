@@ -1,0 +1,331 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<title>Responsive Poll - Create responsive polls easily</title>
+
+	<meta name="description" content="'Responsive Poll' allows you to create polls easily in WordPress. ">
+	<meta name="author" content="Weblator">
+	<meta name="copyright" content="Weblator">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2015-01-16T00:00:00+01:00">
+
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+
+
+
+	<script src="assets/js/jquery.js"></script>
+
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+
+	<script>document.createElement('section');var duration='450',easing='easeOutExpo';</script>
+	<script src="assets/js/script.js"></script>
+
+	<style>
+		html{background-color:#FFFFFF;color:#000000;}
+		::-moz-selection{background:#FF761A;color:#FFFFFF;}
+		::selection{background:#FF761A;color:#FFFFFF;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_6.png);}
+		a{color:#FF6600;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #CCCCCC, #BBBBBB);
+			  background-image: -ms-linear-gradient(top, #CCCCCC, #BBBBBB);
+			  background-image: -webkit-gradient(linear, 0 0, 0 CCCCCC%, from(#FF6600), to(#BBBBBB));
+			  background-image: -webkit-linear-gradient(top, #CCCCCC, #BBBBBB);
+			  background-image: -o-linear-gradient(top, #CCCCCC, #BBBBBB);
+			  background-image: linear-gradient(top, #CCCCCC, #BBBBBB);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCCCCC', endColorstr='#BBBBBB', GradientType=0);
+			  border-color: #BBBBBB #BBBBBB #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #CCCCCC #CCCCCC #bfbfbf;
+		  background-color: #BBBBBB;
+		}
+		hr{border-top:1px solid #CCCCCC;border-bottom:1px solid #BBBBBB;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#000000;color:#FFFFFF;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #010101;-moz-text-shadow:1px 1px 0px #010101;text-shadow:1px 1px 0px #010101;}
+		#documenter_sidebar ul{border-top:1px solid #000;}
+		#documenter_sidebar ul a{border-top:1px solid #000;border-bottom:1px solid #000;color:#FFFFFF;}
+		#documenter_sidebar ul a:hover{background:#aaa;color:#FFFFFF;border-top:1px solid #aaa;}
+		#documenter_sidebar ul a.current{background:#aaa;color:#FFFFFF;border-top:1px solid #000000;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+
+</head>
+<body class="documenter-project-responsive-poll">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+
+			<li><a href="#introduction" title="Introduction">Introduction</a></li>
+			<li><a href="#plugin_features" title="Plugin Features">Plugin Features</a></li>
+			<li><a href="#installation" title="Installation">Installation &amp; Updating</a></li>
+			<li><a href="#creating_a_poll" title="Creating a poll">Creating a poll</a></li>
+            <li><a href="#tooltips" title="Customising Tooltips">Customising Tooltips</a></li>
+			<li><a href="#displaying_a_poll" title="Displaying a poll">Displaying a poll</a></li>
+			<li><a href="#displaying_results" title="Displaying Results">Displaying Results</a></li>
+			<li><a href="#viewing_results" title="Viewing Results">Viewing Results</a></li>
+			<li><a href="#messages" title="Customising Poll Messages">Customising Poll Messages</a></li>
+            <li><a href="#support" title="Support">Support</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Weblator 2015
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Responsive Poll</h1>
+	<h2>Create responsive polls easily</h2>
+	<div id="documenter_buttons">
+
+	</div>
+	<hr>
+	<ul>
+	<li>created: March 11, 2014</li>
+	<li>latest update: October 14, 2015</li>
+	<li>by: Weblator</li>
+	<li><a href="http://plugins.weblator.com/responsive-poll/">plugins.weblator.com/responsive-poll/</a></li>
+	<li>email: <a href="mailto:&#112;&#108;&#117;&#103;&#105;&#110;&#45;&#112;&#111;&#108;&#108;&#64;&#119;&#101;&#98;&#108;&#97;&#116;&#111;&#114;&#46;&#99;&#111;&#109;">&#112;&#108;&#117;&#103;&#105;&#110;&#45;&#112;&#111;&#108;&#108;&#64;&#119;&#101;&#98;&#108;&#97;&#116;&#111;&#114;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p></p>
+	</section>
+
+	<section id="introduction">
+	<div class="page-header"><h3>Introduction</h3><hr class="notop"></div>
+<p>
+	&#39;Responsive Poll&#39; allows you to create polls easily in WordPress. The results can be displayed in a number of fully customisable HTML5 animated charts</p>
+<ul class="check">
+	<li>
+		7 animated chart types for displaying voting results</li>
+	<li>
+		Allows for multiple polls on a single page</li>
+	<li>
+		Fully customisable</li>
+	<li>
+		Responsive</li>
+	<li>
+		Built using Twitter Bootstrap 3</li>
+	<li>
+		Uses Charts.js</li>
+</ul>
+<p>
+	&#39;Responsive Poll&#39; uses the HTML5 canvas element. It supports all modern browsers, and polyfills provide support for IE8.</p>
+<p>
+	Built using Twitter Bootstrap 3 it&#39;s not only responsive but also secure with three layers of security (Cookies, IP, and User ID). You can be sure that your results are accurate as possible.</p>
+</section>
+<section id="plugin_features">
+	<div class="page-header"><h3>Plugin Features</h3><hr class="notop"></div>
+<p>
+	<strong>Animated Chart Types</strong></p>
+<ul>
+	<li>
+		Pie Chart</li>
+	<li>
+		Bar Chart</li>
+	<li>
+		Doughnut Chart</li>
+	<li>
+		Line Chart</li>
+	<li>
+		Radar Chart</li>
+	<li>
+		Polar Chart</li>
+	<li>
+		Bootstrap Progress Bars</li>
+</ul>
+<p>
+	<strong>Results Options</strong></p>
+<ul>
+	<li>
+		Always show results before a user votes</li>
+	<li>
+		Allow users to click a link to show results before voting</li>
+	<li>
+		Only show results after a user has voted</li>
+	<li>
+		Never show results</li>
+</ul>
+</section>
+<section id="installation">
+	<div class="page-header"><h3>Installation &amp; Updating</h3><hr class="notop"></div>
+<p>
+	<strong>Wordpress</strong></p>
+<p>
+	You can install/update the plugin by performing following steps:</p>
+<ol>
+	<li>
+		Navigate to the &#39;Add New&#39; in the Plugins dashboard</li>
+	<li>
+		Navigate to the &#39;Upload&#39; area</li>
+	<li>
+		Select the zip file you downloaded from Code Canyon from your computer</li>
+	<li>
+		Click &#39;Install Now&#39;</li>
+	<li>
+		Activate the plugin in the Plugins dashboard</li>
+</ol>
+    <p>Please note: The plugin will need to be deactivated before updating.</p>
+<p>
+	<strong>FTP &nbsp; </strong></p>
+<p>
+	You can install/update the plugin by performing following steps:</p>
+<ol>
+	<li>
+		Unzip the file you downloaded from CodeCanyon</li>
+	<li>
+		Extract the &#39;weblator-poll&#39; directory to your computer</li>
+	<li>
+		Upload the &#39;weblator-poll&#39; directory to the &#39;/wp-content/plugins/&#39; directory</li>
+	<li>
+		Activate the plugin in the Plugins dashboard</li>
+</ol>
+        <p>Please note: The plugin will need to be deactivated before updating.</p>
+</section>
+<section id="creating_a_poll">
+	<div class="page-header"><h3>Creating a poll</h3><hr class="notop"></div>
+<p>
+	Now that you&#39;ve installed the plugin, let&rsquo;s create your first chart.<br>
+	<br>
+	Navigate to <strong>Polls</strong> &gt;<strong> Add New</strong><br>
+	<br>
+	On the next page you will find <strong>Poll Settings</strong><br>
+	<br>
+	<img alt="Chart Settings" src="assets/images/image_1.jpg" style="width: 1173px; height: 400px;"></p>
+<ul>
+	<li>
+		<strong>Question - </strong>This is the question for your poll.</li>
+	<li>
+		<strong>Show Results - </strong>When you want the results of your poll displayed.</li>
+	<li>
+		<strong>Chart Type - </strong>What type of chart you want your results displayed in.</li>
+	<li>
+		<strong>Chart Max Width - </strong>This is where you set the maximum width of your chart in pixels. Please note that by setting the value to &#39;0&#39; will turn the chart fully responsive, and to a maximum width of 100%.</li>
+	<li>
+		<strong>Allow only one vote per user - </strong>Option to allow multiple votes per user, or just one. Votes can be limited by IP, Cookie, or User ID.</li>
+    <li>
+        <strong>Display Results as Percentage Values - </strong> This will display your results as percentage values as opposed to its total number of votes.</li>
+</ul>
+<p>
+	Below the <strong>Poll Settings</strong> section you&#39;ll find <strong>Style Settings</strong><br>
+	<br>
+	You&#39;ll see different options in the <strong>Style Section. </strong>Altering these settings will change the overall appearance of the chart.<br>
+	<br>
+	Below the <strong>Style Settings </strong>section you&#39;ll find <strong>Response Options<br>
+	<br>
+	<img alt="" src="assets/images/image_4.jpg" style="width: 1173px; height: 165px;"></strong><br>
+	<br>
+	In the <strong>Response Options </strong>sections you can add your data set.</p>
+<ul>
+	<li>
+		<strong>Option Name - </strong>This is an answer to your poll question.</li>
+</ul>
+<p>
+	Click on &#39;<strong>Add Option</strong>&#39; for each addition option you want to include on your chart.<br>
+	<br>
+	Once you&#39;re happy with the above settings, click on &#39;<strong>update</strong>&#39; to save the poll.</p>
+</section>
+
+<section id="tooltips">
+	<div class="page-header"><h3>Customisng Tooltips</h3><hr class="notop"></div>
+<p>
+	Tooltips can also be customised via the Poll setting options.<br>
+	<br>
+	<img alt="Chart Settings" src="assets/images/image_7.png" style="width: 1128px; height: 786px;"></p>
+<ul>
+	<li>
+		<strong>Tooltip Background Colour - </strong>The background colour of the tooltip.</li>
+	<li>
+		<strong>Tooltip Font Family - </strong>The font family used for the tooltip text.</li>
+	<li>
+		<strong>Tooltip Font Size - </strong>The size of the tooltip text.</li>
+	<li>
+		<strong>Tooltip Font Style - </strong>Apply font styles to tooltip text.</li>
+	<li>
+		<strong>Tooltip Font Colour - </strong>The colour of the tooltip text.</li>
+	<li>
+		<strong>Tooltip Padding Left/Right - </strong>The amount of spacing left and right of the tooltip text</li>
+	<li>
+		<strong>Tooltip Padding Top/Bottom - </strong>The amount of spacing above and below the tooltip text.</li>
+    <li>
+		<strong>Tooltip Caret Size - </strong>The caret size used for the tool tip. The caret is the pointer used for your tooltip. </li>
+    <li>
+		<strong>Tooltip Corner Radius - </strong>This sets how rounded the tooltip corners are. For example, a higher number will cause the tooltip to be more rounded. Setting the radius to 0 will created squared off corners. </li>
+</ul>
+<p>
+	Once you&#39;re happy with the above settings, click on &#39;<strong>update</strong>&#39; to save the Poll.</p>
+</section>
+
+<section id="displaying_a_poll">
+	<div class="page-header"><h3>Displaying a poll</h3><hr class="notop"></div>
+<p>
+	Polls can be displayed in a post or page using <strong>shortcode</strong>. Alternatively, <strong>template files usage</strong> can be used to display a poll elsewhere on a WordPress website.<br>
+	<br>
+	Navigate to <strong>Polls</strong> &gt; <strong>Edit</strong><br>
+	<br>
+	<img alt="" src="assets/images/image_3.jpg" style="width: 1173px; height: 200px;"><br>
+	<br>
+	Copy the <strong>shortcode </strong>at the top of the settings and paste it into the post or page you want the poll to display.<br>
+	<br>
+	<img alt="Poll Shortcode" src="assets/images/image_2.jpg" style="width: 1173px; height: 110px;"><br>
+	<br>
+	<strong>Shortcode example: </strong><code>[poll id=&quot;ID&quot;]</code><br>
+	<strong>Template files usage example: </strong><code>&lt;?php echo do_shortcode(&quot;[poll id=ID]&quot;); ?&gt;</code><br>
+	<strong>Display a random poll: </strong><code>[poll random]</code><br>
+	<strong>Only Display Results: </strong><code>[poll_results id=ID]</code></p>
+</section>
+<section id="displaying_results">
+	<div class="page-header"><h3>Displaying Results</h3><hr class="notop"></div>
+
+	<p>Poll Results can be displayed by using the [poll_results id=ID] shortcode or by selecting "Only show results" from the "Show Results" option under "Chart Settings". This will only display the chart type selected.</p>
+		<img alt="" src="assets/images/image_8.png" style="width: 1173px;"></strong>
+</sction>
+<section id="viewing_results">
+	<div class="page-header"><h3>Viewing Results</h3><hr class="notop"></div>
+	<p>
+	Poll results can be viewed in the indivual poll settings.<br>
+	<br>
+	Navigate to <strong>Polls</strong> &gt;<strong> Edit<br>
+	<br>
+	<img alt="" src="assets/images/image_3.jpg" style="width: 1173px; height: 200px;"></strong><br>
+	<br>
+	Votes are displayed in the right hand sidebar.<br>
+	<br>
+	<img alt="" src="assets/images/image_5.jpg"  ></p>
+</section>
+<section id="messages">
+	<div class="page-header"><h3>Customising Poll Messages</h3><hr class="notop"></div>
+	<p>
+		Poll Messages can be set at a global level by navigating to the <strong>Poll Messages</strong> page.
+	</p>
+	<img alt="" src="assets/images/image_9.png" style="width: 1173px;">
+	<p>These messages can be overriden for individual polls within the <strong>Poll Settings</strong> page. <p>
+		<img alt="" src="assets/images/image_10.png" style="width: 1173px;">
+</section>
+
+<section id="support">
+	<div class="page-header"><h3>Support</h3><hr class="notop"></div>
+<p>
+If you have any questions regarding the Responsive Poll plugin please contact us via <a href="mailto:plugin-poll@weblator.com">plugin-poll@weblator.com</a><br><br>
+    Thanks for your support. We hope you enjoy using our plugin&#33;<br><br>
+    Weblator
+    </p>
+</section>
+
+	</div>
+</body>
+</html>

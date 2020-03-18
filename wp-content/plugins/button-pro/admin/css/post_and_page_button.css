@@ -1,0 +1,26 @@
+.wd_button_container{	
+	margin:10px;
+	padding: 10px;
+	border-bottom: 1px solid #DDD;		
+
+}
+.col-2{
+	float: left;
+	width: 50%;
+}
+.wd_button_container a{
+	text-decoration: none;	
+	cursor: default;
+}
+
+.btn_insert{
+	display: inline-block;
+	float: right;
+	margin:10px 0 0 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.clear_fix{
+	clear: both;
+}

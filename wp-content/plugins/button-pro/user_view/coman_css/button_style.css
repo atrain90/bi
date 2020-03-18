@@ -1,0 +1,26 @@
+.button_container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ .button_container a{
+    font-family: 'Roboto', sans-serif;
+}
+
+.button_container a {
+  /*display: inline-block;*/
+  /*vertical-align: middle;*/
+  margin: .4em;
+  padding: 1em;
+  cursor: pointer;
+  background: #e1e1e1;
+  text-decoration: none;
+  color: #666;
+  /* Prevent highlight colour when element is tapped */
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#wd_button:hover{
+  color: inherit;
+}

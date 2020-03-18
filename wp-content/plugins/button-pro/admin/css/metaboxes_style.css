@@ -1,0 +1,583 @@
+/*
+	1. layout metabox style
+	2. basics metabox style
+	3. border metabox style
+	4. Border Transition Manage style
+	5. Icon Simple style
+	6. button sets style
+	7. Rateus style
+	8. wdbutton_preview
+	9. wdbutton_header_info
+	11. wdbuttoncustom_css
+	*/
+
+	.clear_fix{
+		clear: both;
+	}
+	a{
+		text-decoration: none;
+	}
+	.text_left{
+		text-align: left!important;
+	}
+
+	.text_right{
+		text-align: right!important;
+	}
+
+	.text_center{
+		text-align: center!important;
+	}
+	select{
+		width: 100%;
+	}	
+
+	.wdbutton_settings_box{
+		display: none;
+	}
+	.shortcode_meta_box{
+		margin:20px;
+	}
+
+	.shortcode_meta_box input{
+		width: 100%;
+		padding: 7px;
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.border_none{
+		border: none!important;
+	}
+
+	.popover{
+		z-index: 1000000;
+	}
+	.container .home_title{
+		text-align: center;
+		font-size: 20px!important;
+		background: #5cbcf6;
+		color: #fff;
+	}
+
+	.social_url{
+		margin-top: 10px;
+	}
+	.button_circle{
+		display: none;
+	}
+	/******************* 1. layout metabox style***************************/
+	.buton_layout_container{
+		margin-bottom: 20px;
+	}
+	.buton_layout_container input[type="radio"] {
+		display: none;
+	}
+
+	.buton_layout_container input[type=radio]:checked + label {
+		background: #fff!important;
+		border: 3px solid #2ac56c;
+		opacity: 0.6;
+	}
+
+	.buton_layout_container label {
+		border: 3px solid #DDD;
+		margin: 8px;
+		display: inline-block;
+		opacity: 1;
+		padding: 10px;
+		text-align: center;
+	}
+	.buton_layout_container label:hover{
+		opacity: 0.6;
+	}
+	.buton_layout_container img{
+		display: block;
+		border-bottom: 1px dotted #ddd;
+	}
+
+	.buton_layout_container h2{
+		margin-top: 10px!important;
+		margin-bottom: 10px!important;
+		font-weight: bold!important;
+	}
+	.buton_layout_container a{
+		color: #fff;
+		background-color: #d9534f;
+		border-color: #ac2925;
+		display: inline-block;
+		padding: 6px 12px;
+		margin-bottom: 0;
+		font-size: 14px;
+		font-weight: normal;
+		line-height: 1.42857143;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		background-image: none;
+		border: 1px solid transparent;
+		border-radius: 4px;
+	}
+	.buton_layout_container a:hover{
+		color: #fff;
+		background-color: #c9302c;
+		border-color: #ac2925;		
+	}
+
+	/***********************end****************************/
+
+	/***********6. button sets style**********/
+	.buton_sets_container a{
+		margin-top: 10px;
+	}
+
+	.buton_sets_container img{
+		width: 160px;
+		height: 100px;
+	}
+	.buton_sets_container h2{
+		text-align: center;
+		background: #f2f2f2;
+		color: #23282d;
+	}
+	.btn_sets_settings .input_field label{
+		margin-top: 10px;
+	}
+	/********************end***********************/
+
+	/**********************2. basics metabox style***********/
+
+	.container{
+
+	}
+
+	.container input[type="checkbox"]{
+		margin-top: 8px;
+	}
+
+	.container .input_group{
+		margin: 20px;
+		padding: 30px;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.container .input_group .input_label, .container .input_group .input_field{
+		float: left;
+	}
+
+	.container .input_group .input_label{
+		width: 20%;
+	}
+
+	.container .input_group .input_field{
+		width: 80%;
+	}
+
+
+	.container .input_group .input_label label{
+		display: inline-block;
+		font-weight: bold;
+		font-size: 15px;
+		padding:7px;		
+		vertical-align: top;
+		cursor: default;
+		min-height: 25px;
+	}
+
+	.container .input_group .input_field label{
+		display: inline-block;
+	}
+
+	
+
+	.container .input_group .input_field .input_box,.ip_input{
+		width: 100%;
+		padding: 5px;
+		font-size: 15px;
+		height: 28px;
+	}
+	.ip_input{
+		width: 50%;
+	}
+
+	.container .input_group .input_field .input{
+		float: left;
+	}
+
+	.container .input_group .input_field .input_inline{
+		width: 25%;
+	}
+
+	.container .input_group .input_field .input input[type="number"]{
+		width: 38%;
+	}
+
+	.container .input_group .input_field .input:last-child{
+		text-align:;
+	}
+
+	.container .input_group .input_field .input label{
+		margin-right: 11px;
+	}
+
+	.container .input_group .px{
+		background: #2196F3;
+		color: #fff;
+		padding: 7px 6px 6px 6px;
+		margin-left: -5px;
+	}
+
+	.container .input_group .input_field .two_col{
+		width: 50%;
+		line-height: 34px;
+	}
+
+	.container .input_group .input_field .two_col input[type="number"]{
+		width: 67%;
+
+	}
+
+	.three_col{
+		width: 33%;
+	} 
+
+	.container .input_group .input_field .font_family{
+		width: 37%;
+	}
+
+	.container .input_group .input_field .font_family select{
+		width: 60%;
+		height: 29px;
+	}
+	.container .input_group .input_field .font_family input[type="number"]{
+		width: 22%;
+	}
+	.container .input_group .input_field .font_weight{
+		width: 31%;
+	}
+	.container .input_group .input_field .font_weight input[type="checkbox"],
+	.container .input_group .input_field .font_weight input[type="radio"]{
+		display: none;
+	}
+
+	.container .input_group .input_field .font_weight label{
+		border: 1px solid #DDD;
+		display: inline-block;
+		padding: 4px;
+		margin-right: 4px;
+	}
+
+	.container .input_group .input_field .font_weight input[type=checkbox]:checked + label,
+	.container .input_group .input_field .font_weight input[type=radio]:checked + label {
+		background: #dff0d8!important;
+		border: 1px solid #4caf50;
+	}
+
+	/***********************end****************************/
+
+
+	/**********************3. border metabox style*************/
+	.container .input_group .button_radius .top_left{
+		webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.container .input_group .button_radius .top_right{
+		webkit-transform: rotate(-225deg);
+		-moz-transform: rotate(-225deg);
+		-ms-transform: rotate(-225deg);
+		-o-transform: rotate(-225deg);
+		transform: rotate(-225deg);
+	}
+
+	.container .input_group .button_radius .bottom_left{
+		webkit-transform: rotate(-405deg);
+		-moz-transform: rotate(-405deg);
+		-ms-transform: rotate(-405deg);
+		-o-transform: rotate(-405deg);
+		transform: rotate(-405deg);
+		margin: 0;
+	}
+
+	.container .input_group .button_radius .bottom_right{
+		webkit-transform: rotate(-135deg);
+		-moz-transform: rotate(-135deg);
+		-ms-transform: rotate(-135deg);
+		-o-transform: rotate(-135deg);
+		transform: rotate(-135deg);
+		margin: 0;
+	}
+	.button_radius{
+		margin-right: 10px;
+	}
+	.button_radius label{
+		display: inline-block;
+		width: 90px;
+	}
+
+	.button_radius .dashicons{
+		font-size: 37px;
+		height: 35px;
+		width: 35px;
+		color: #ccc;
+		margin-top: -10px;
+	}
+	.button_radius{
+		width: 46%!important;
+		margin: 10px;
+	}
+	.button_radius input[type="number"]{
+		width: 29%!important;
+	}
+
+	.button_radius .px{
+		margin:10px;
+	}
+
+	/***********************end****************************/
+
+	/***********************4. Border Transition Manage style**********/
+
+	.button_effect_section{
+		border: 1px solid #ddd;
+		background: #f1f1f1;
+		display: none;
+	}
+
+	.button_effect_section .input_group{
+		border: none;
+		padding: 0;
+	}
+
+	.button_effect_section .heading_title{
+		font-weight: 900;
+		background: #23282d;
+		color: #fff;
+	}
+	.button_effect_section .wp-picker-container{
+		margin-top: 6px;
+	}
+	
+
+	/************************/
+
+	/*************5. Icon Simple style************/
+
+	.ican_radio{
+		padding-right: 10px;
+
+	}
+
+	/*********************7. Rateus style**************************/
+
+	#button_rateus{
+		background-color: #eb984e;
+		text-align:center;
+	}
+	#button_rateus .hndle , #button_rateus .handlediv{
+		display:none;
+	}
+	#button_rateus h1{
+		color:#fff;
+		border-bottom: 1px dotted rgba(250,250,250,0.5);
+	}
+	#button_rateus h3 {
+		color:#fff;
+		font-size:15px;
+	}
+	#button_rateus .button-hero{
+		display:block;
+		text-align:center;
+		margin-bottom:15px;
+	}
+	.wpsm-rate-us{
+		text-align:center;
+	}
+	.wpsm-rate-us span.dashicons {
+		width: 40px;
+		height: 40px;
+		font-size:20px;
+		color : #fff !important;
+	}
+	.wpsm-rate-us span.dashicons-star-filled:before {
+		content: "\f155";
+		font-size: 40px;
+	}
+	#button_rateus .button-hero{
+		background: #fff;
+		color: #eb984e;
+		box-shadow: none;
+		text-shadow: none;
+		font-weight: 900;
+		font-size: 23px;
+		border:none;
+
+	}
+
+	/**************************************************/
+
+
+	/************************8. wdbutton_preview*************/
+
+
+	.wdbutton_preview_box{
+		position: fixed;
+		top: 45px;
+		right: 20px;
+		background-color: #ffffff;
+		border: solid 1px #ccc;
+		box-shadow: 0px 0px 6px #808080;
+		z-index: 99;
+		width: auto;
+		min-width: 300px;
+		min-height: 100px;
+		
+	}
+	.wdbutton_preview_box .header,.wdbutton_preview_box .header_hover,.wd_btnset_use{
+		color: #222222;
+		text-align: center;
+		background-color: #ffffff;
+		border-bottom: solid 1px #cccccc;
+		font-family: "Open Sans", sans-serif;
+		font-size: 16px!important;
+		font-weight: bold!important;
+		padding: 8px 0px 8px 10px!important;
+		cursor: move;
+	}
+	.wdbutton_preview_box .header_hover{
+		cursor: inherit;
+	}
+
+	.wdbutton_preview_box .wdbutton_live{
+		text-align: center;
+		padding: 20px 0;
+	}
+
+	.wdbutton_preview_box .wdbutton_live_hover{
+		text-align: center;
+		padding: 20px 0;
+	}
+	.wdbutton_preview_box a{			
+		display: inline-block;
+	}
+	.hover_box{
+		display: none;		
+	}
+	
+	/***********************9. wdbutton_header_info**************/
+
+
+	.wdbutton_ac_h_i{
+
+		margin-left: -20px;
+		font-family: Myriad Pro ;
+		cursor: pointer;
+		text-align: center;
+	}
+	.wdbutton_ac_h_i .wdbutton_container{
+		background: rgba(0,0,0,0.7);
+		padding-top: 0px;
+		padding: 27px 0 23px 0;
+	}
+	.link_wdbutton{
+		color: white;
+		font-size: 30px;
+		font-weight: bolder;
+		padding: 15px 0 15px 0;
+	}
+
+	.view_demo_btn,.buynow_btn,.get_support_btn{
+		font-size: 20px;
+		background-color: #5f82ac;		
+		margin-right: 10px;
+		padding: 10px 16px;
+		line-height: 1.3333333;
+		color: #fff;
+		border-color: #d43f3a;
+		display: inline-block;
+		margin-bottom: 0;
+		
+		font-weight: normal;
+		
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		background-image: none;
+		border: 1px solid transparent;
+		border-radius: 4px;
+	}
+
+	.view_demo_btn{
+		background: #f8504b;
+	}
+	.get_support_btn{
+		
+		background: #5cb85c;
+	}
+
+	.view_demo_btn:hover,.buynow_btn:hover,.get_support_btn:hover{
+		color: #fff;
+		opacity: 0.6;
+	}
+	.wdbutton_ac_h_i .wpsm-rate-us .dashicons{
+		color: #ffb900!important;
+	}
+
+	.wd_fetures{
+		height: 130px;
+	}
+	.wd_fetures .col_md_3{
+		float: left;
+		width: 33%;		
+		padding: 10px;
+	}
+
+	.wd_fetures .col_md_3 li{
+		color: #fff;
+		font-size: 17px;
+		line-height: 1.3;
+		font-weight: 600;
+	}
+
+	/***********11. wdbuttoncustom_css****************/
+
+	.custom_css_box h3{
+		text-align: center;
+		border-top: 1px solid #ccc;
+		padding: 20px;
+	}
+	#wdbuttoncustom_css{
+		width:100% !important ;
+		height:300px;
+		background:#ececec;
+		border: 1px solid #ececec;
+	}	
+
+	.numberedtextarea-line-numbers {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 50px;
+		border: 1px solid #ececec;
+		color: #aaaab1!important;
+		background:#fff!important;
+		overflow: hidden;
+	}

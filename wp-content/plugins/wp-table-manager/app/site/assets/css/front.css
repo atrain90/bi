@@ -1,0 +1,151 @@
+/** Table reset **/
+.wptmtable {
+    position: relative;
+    overflow-x: auto;
+}
+
+.wptmtable table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: none;
+}
+.wptmtable tr, .wptmtable th, .wptmtable td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 13px;
+    font-family: Arial;
+    vertical-align: baseline;
+    background: none;
+    color: black;
+    font-weight: normal;
+    border: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+.wptmtable td,.wptmtable th {
+    line-height: 21px;
+    padding: 0 4px 0 4px;
+}
+
+.wptmtable .sortable thead th {
+    cursor: pointer;
+}
+
+div.wptmoverflow {
+    overflow-x: scroll;
+}
+.wptm_tooltip {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+.wptm_tooltip:hover {
+    text-decoration: none;  
+}
+.wptm_tooltipcontent {
+     display: none; 
+}
+.wptm_tooltipcontent_show {
+    position: absolute;  
+    color: #FFF;
+    background: #000 none repeat scroll 0% 0%;
+    min-height: 40px;
+    line-height: 22px;
+    text-align: center;    
+    border-radius: 2px;
+    padding: 5px;
+    visibility: visible;
+    display:block;            
+    z-index: 999;  
+    opacity: 0.9;
+}
+
+span.wptm_tooltipcontent_show:after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -8px;
+	width: 0;
+	height: 0;
+	border-top: 8px solid #000000;
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;
+}
+
+.wptm_dbtable table tr td, .wptm_dbtable table tr th{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.ft_r.ui-widget-header input.tablesorter-filter{
+    width: 98%;
+}
+
+table.fxdHdrCol tbody tr.row_hide{
+    display: none !important;
+}
+
+#sorttable_sortfwdind, #sorttable_sortrevind{
+    display: none;
+}
+
+.use_sortable .wptmtable table thead tr th.tablesorter-header{ background-image: url(images/bg.gif); background-position: right center; background-repeat: no-repeat; }
+.use_sortable .wptmtable table thead tr th.tablesorter-headerAsc{ background-image: url(images/asc.gif); }
+.use_sortable .wptmtable table thead tr th.tablesorter-headerDesc{ background-image: url(images/desc.gif); }
+.use_sortable .wptmtable table thead tr th.fx_sort_asc{ background-image: url(images/asc.gif); }
+.use_sortable .wptmtable table thead tr th.fx_sort_desc{ background-image: url(images/desc.gif); }
+
+.wptmtable table {
+    width: auto;
+}
+
+.ft_rwrapper, .ft_scroller {
+    max-width: 100%;
+}
+
+.tablesorter-bootstrap thead th,
+.tablesorter-bootstrap thead td {
+    margin: 0;
+}
+
+.restableHideCols table thead tr,
+.restableHideCols table tbody tr {
+    display: table;
+}
+
+.wptmtable .tablesorter-bootstrap th,
+.wptmtable .tablesorter-bootstrap td,
+.wptmtable .ui-widget-header th,
+.wptmtable .ui-widget-header td {
+    box-sizing: border-box;
+}
+
+.container .wptmtable .filterable .tablesorter-filter-row {
+    padding: 0;
+}
+
+.wptmtable select.input-mini{
+    width: 5%;
+    min-width: 50px;
+}
+
+.download_wptm {
+    vertical-align: baseline;
+    text-decoration: none;
+    border: 1px;
+    background: #051e99d1;
+    padding: 0.3em 0.5em;
+    color: #fafafa;
+    font-size: 13px;
+    border-radius: 9px;
+}

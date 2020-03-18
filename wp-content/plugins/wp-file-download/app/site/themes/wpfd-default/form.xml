@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" method="POST"
+      action="admin.php?page=wpfd-config&amp;theme=default&amp;task=config.savethemeparams">
+    <input
+            name="marginleft"
+            type="typeint"
+            label="Margin left"
+            value="10"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="marginright"
+            type="typeint"
+            label="Margin right"
+            value="10"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="margintop"
+            type="typeint"
+            label="Margin top"
+            value="10"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="marginbottom"
+            type="typeint"
+            label="Margin bottom"
+            value="10"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="showsize"
+            type="switcher"
+            label="Show weight"
+            value="1"
+            class="inline ju-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="showtitle"
+            type="switcher"
+            label="Show title"
+            value="1"
+            class="inline ju-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="croptitle"
+            type="text2"
+            label="Crop titles"
+            value="0"
+            class="inputbox input-block-level croptitle ju-input"
+            required="true"
+            tooltip="Crop the files titles after a predefined number of characters"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="showversion"
+            type="switcher"
+            label="Show version"
+            value="1"
+            class="inline ju-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="showhits"
+            type="switcher"
+            label="Show hits"
+            value="1"
+            class="inline ju-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="showdownload"
+            type="switcher"
+            label="Show download link"
+            value="1"
+            class="inline ju-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="bgdownloadlink"
+            type="text2"
+            label="Background download link"
+            value="#76bc58"
+            class="ju-input wp-color-field minicolors minicolors-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="colordownloadlink"
+            type="text2"
+            label="Color download link"
+            value="#ffffff"
+            class="ju-input wp-color-field minicolors minicolors-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="showdateadd"
+            type="switcher"
+            label="Show date added"
+            value="1"
+            class="inline ju-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="showdatemodified"
+            type="switcher"
+            label="Show date modified"
+            value="0"
+            class="inline ju-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="showsubcategories"
+            type="switcher"
+            label="Show subcategories"
+            value="1"
+            class="inline ju-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="showbreadcrumb"
+            type="switcher"
+            label="Show Breadcrumb"
+            value="1"
+            class="inline ju-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="showfoldertree"
+            type="switcher"
+            label="Show folder tree"
+            value="0"
+            class="inline ju-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <button
+            type="submit"
+            value="Save"
+            class="ju-button orange-button"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+</form>

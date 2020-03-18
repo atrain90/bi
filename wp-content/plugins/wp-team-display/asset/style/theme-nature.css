@@ -1,0 +1,441 @@
+
+#teamchart-div.nature * {padding:0;margin:0;}
+#teamchart-div.nature {overflow: auto;
+padding: 19px;}
+#teamchart-div.nature .person {cursor:pointer;width:100%;max-width:200px;display:block;position: relative;z-index: 1;
+
+margin:0 auto;
+text-align: center;-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+#teamchart-div.nature .person:hover {}
+
+
+#teamchart-div.nature .person .image {width: 91%;
+overflow: hidden;
+margin: 0 auto;} 
+
+
+#teamchart-div.nature .person .text{
+background: url("../images/nature-theme/pattern-left.png");
+background-image: url("../images/nature-theme/pattern-right.png"), url("../images/nature-theme/pattern-left.png");
+background-position: right top,left top;
+background-repeat: repeat-y,repeat;
+position:relative;z-index:10;
+}
+
+#teamchart-div.nature .person .text:before{
+content:" ";width:46px;height:31px;display:block;position:absolute;bottom:0;left:-46px;
+background:url("../images/nature-theme/left-shadow-box.png") no-repeat;z-index:0;
+}
+
+#teamchart-div.nature .person .text:after{
+content:" ";width:27px;height:31px;display:block;position:absolute;bottom:0;right:-27px;
+background:url("../images/nature-theme/right-shadow-box.png") no-repeat;z-index:0;
+}
+
+#teamchart-div.nature .person .name:before{
+content:" ";width:auto;height:10px;display:block;position:absolute;top:-10px;left:0;right:10px;z-index:0;
+background: url("../images/nature-theme/pattern-left.png");
+background-image: url("../images/nature-theme/corner-topleft.png"), url("../images/nature-theme/overlay-person.png");
+background-position: left 4px,9px top;
+background-repeat: no-repeat,no-repeat;
+
+
+}
+
+#teamchart-div.nature .person .image img {border-radius:0px;box-shadow:none;width:100%;}
+#teamchart-div.nature .person .name {position:relative;color:#f8f7eb;font-weight:normal; display: table;height:49px;width:100%;
+}
+#teamchart-div.nature .person .name p{display: table-cell; vertical-align: middle; text-align: center;width:100%;
+-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;padding: 0 10px;
+}
+#teamchart-div.nature .person .Job {color:#cfc3a1;font-weight:300;font-size:12px;word-wrap: break-word;text-align:center;height: auto;
+padding: 0 8px;overflow:hidden;}
+
+
+#teamchart-div.nature ul {
+	padding-top: 20px; position: relative;text-align:center;
+	
+}
+
+#teamchart-div.nature ul#first{padding-top: 0px;}
+
+#teamchart-div.nature li:only-child{
+	text-align:center;
+	padding: 20px 0;	
+	width:100%;
+}
+#teamchart-div.nature  li {	
+	text-align:center;
+	list-style-type: none;
+	position: relative;
+	padding: 20px 10px;	
+	vertical-align: top;
+	display:inline-block;
+	word-wrap: normal;
+}
+
+
+
+/*
+Line connector parents
+*/
+
+#teamchart-div.nature  li.parents > div.person::before,
+#teamchart-div.nature  li.parents > div.person::after{
+display:none;
+}
+
+#teamchart-div.nature  li.parents::before{
+content: '';
+position: absolute;
+top: 100px;
+left: 0;
+width: 50%;
+z-index: 0;
+border-top: 3px solid #d0cdc0;
+border-left: 0;
+border-right: 0;
+height: 20px;
+}
+#teamchart-div.nature  li.parents::after{
+content: '';
+position: absolute;
+top: 100px;
+right: 0;
+width: 50%;
+z-index: 0;
+border-top: 3px solid #d0cdc0;
+border-left: 0;
+border-right: 0;
+height: 20px;
+}
+
+#teamchart-div.nature  li.parents:first-child::before{border-top: none;
+z-index: 1;
+width: 50%;
+left: -23%;}
+#teamchart-div.nature  li.parents:last-child::after{border-top:none;
+z-index: 0;
+width: 50%;
+right: -43%;}
+
+
+#teamchart-div.nature li.parents > div.person {position:relative;}
+#teamchart-div.nature li.parents:last-child > div.person::after {border-top:none;}
+
+#teamchart-div.nature li.parents:last-child > div.person::before{border-right:none;z-index: -99999;
+position: relative;}
+#teamchart-div.nature li.parents:first-child > div.person::after{border-left:none;}
+
+
+
+
+
+
+/*We will use ::before and ::after to draw the connectors*/
+
+#teamchart-div.nature #first li div.person::before, #teamchart-div.nature #first  li div.person::after{
+content: '' ;
+position: absolute ;
+bottom: 0 ;
+top: auto;
+right: 50% ;
+border-bottom: 3px solid #d0cdc0 ;
+width: 50% ;
+border-top:none;
+height: 15px ;
+}
+
+#teamchart-div.nature #first li div.person::after{
+	right: auto; left: 50%;
+	
+}
+
+
+#teamchart-div.nature  li div.person::before, #teamchart-div.nature  li div.person::after{
+content: '';
+position: absolute;
+top:-20px;
+right: 50%;
+border-top: 3px solid #d0cdc0;
+width: 100%;
+height: 20px;
+}
+#teamchart-div.nature  li div.person::after{
+	right: auto; left: 50%;
+	border-left: 3px solid #d0cdc0;
+}
+
+
+
+
+
+
+/*
+#teamchart-div.nature  li.bloc::before, #teamchart-div.nature  li.bloc::after,#teamchart-div.nature ul ul.bloc::before{
+	display: none;
+}
+*/
+
+
+/*Remove space from the top of single children*/
+#teamchart-div.nature  li:only-child div.person{ padding-top: 0px;}
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+#teamchart-div.nature li li:only-child div.person::before {
+	display: block;
+	 right: 48%;
+}
+
+/*Remove space from the top of single children*/
+#teamchart-div.nature li li:only-child div.person{ padding-top: 0px;}
+
+
+/*Remove left connector from first child and 
+right connector from last child*/
+#teamchart-div.nature  li:first-child > div.person::before,
+#teamchart-div.nature  li:last-child > .person::after{
+	border: 0 none;
+}
+
+
+/*Adding back the vertical connector to the last nodes*/
+#teamchart-div.nature  li:last-child > div.person::before{
+	border-right: 3px solid #d0cdc0;
+}
+
+
+
+
+
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+#teamchart-div.nature #first li div.person:only-child::after, #teamchart-div.nature #first li div.person:only-child::before {
+	display: none;
+}
+
+/*Remove space from the top of single children*/
+#teamchart-div.nature #first li div.person:only-child{ padding-top: 0px;}
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+#teamchart-div.nature #first li li div.person:only-child::before {
+	display: block;
+	 right: 48%;
+}
+
+/*Remove space from the top of single children*/
+#teamchart-div.nature #first li li div.person:only-child{ padding-top: 20px;}
+
+
+/*Remove left connector from first child and 
+right connector from last child*/
+#teamchart-div.nature #first li div.person:first-child::before, #teamchart-div.nature #first li div.person:last-child::after{
+	border: 0 none;
+}
+
+
+/*Adding back the vertical connector to the last nodes*/
+#teamchart-div.nature li.col-0 > div.person::before{
+border:0 none !important	;
+}
+
+
+
+
+
+/*Time to add downward connectors from parents*/
+#teamchart-div.nature ul ul#first::before{
+	content: none;
+	position: absolute;top:auto !important; bottom: 0 !important; left: 50%;
+	border-left: 3px solid #d0cdc0;
+	width: 0; height: 20px;
+}
+
+
+#teamchart-div.nature ul ul::before{
+	content: '';
+	position: absolute; top: 0; left: 50%;
+	border-left: 3px solid #d0cdc0;
+	width: 0; height: 20px;
+}
+
+
+/*
+	Clear sublevel
+*/
+
+#teamchart-div.nature ul#first ~ ul > * li {padding:20px 1%;}
+#teamchart-div.nature ul#first ~ ul > * li  .person .text:before{content:none;}
+#teamchart-div.nature ul#first ~ ul > * li  .person .text:after{content:none;}
+#teamchart-div.nature ul#first ~ ul > * li  p{overflow-wrap: break-word; word-wrap: break-word;   word-break: break-all;}
+
+#teamchart-div.nature .col-2 {max-width:48%;}
+#teamchart-div.nature .col-3 {max-width:30%;}
+#teamchart-div.nature .col-4 {max-width:23%;}
+#teamchart-div.nature .col-4 {max-width:18%;}
+
+#teamchart-div.nature ul li li > * li{padding:20px 1%;}
+#teamchart-div.nature ul li li > * .person .text:before , #teamchart-div.nature li li >  * .person .text:after{
+content:none;
+}
+
+#teamchart-div.nature ul li li >  * li p {overflow-wrap: break-word; word-wrap: break-word;   word-break: break-all;}
+
+
+
+
+/**
+ * Framemode	
+ */
+
+#teamchart-div.nature.framemode  li div.person::after{
+	width:100%;
+}
+#teamchart-div.nature li:last-child > .person::after {
+	border-top:none;z-index: -1;
+}
+
+
+#teamchart-div.nature.framemode #chart {zoom:1;}
+#teamchart-div.nature.framemode {overflow:auto;width:100%;height:460px;border: 1px solid #d0cdc0; position:relative;cursor:move;}
+
+#teamchart-div.nature.framemode .col-2,
+#teamchart-div.nature.framemode .col-3,
+#teamchart-div.nature.framemode .col-4 {max-width:none !important;}
+
+#teamchart-div.nature.framemode .person {
+	display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: auto;
+    z-index: 1;
+	
+}
+#teamchart-div.nature.framemode ul {display:table;position: relative;}
+#teamchart-div.nature.framemode li {display:table-cell;position: relative;padding:20px 0;}
+/*  UI kit   */
+ #uiteamchart {text-align:right;margin-bottom:-40px;margin-right:10px;position:relative;z-index:10;}
+ #uiteamchart a {
+	border: 1px solid #aaa;
+display: inline-block;
+width: 32px;
+font-family: Arial;
+height: 32px;
+background: #eee;
+
+border-radius: 3px 0 0 3px;
+text-align: center;
+font-weight: 600;
+font-size: 18px;
+line-height: 29px;
+color: #555;
+}
+ #uiteamchart a:hover {
+	color: #333;
+	box-shadow: inset 3px 0px 10px #aaa;
+	text-decoration:none;
+	background: #ccc;
+box-shadow: inset 0px 0px 10px #888;
+border: 1px solid #888;
+}
+#uiteamchart a.zoomout {
+	border-radius: 0 3px 3px 0;
+	border-left:none;
+	
+}
+
+
+
+/*
+
+RESPONSIVE
+
+*/
+
+@media (max-width:600px){
+#teamchart-div.nature ul li li > * li .Job,
+#teamchart-div.nature ul li li > * li .name,
+#teamchart-div.nature ul:not(.first) > ul:not(.first) li li .Job,
+#teamchart-div.nature ul:not(.first) > ul:not(.first) li li .name{
+display:none !important;
+}
+#teamchart-div.nature li li li.col-2 .image,#teamchart-div.nature li li.col-4 .image ,#teamchart-div.nature li li li.col-3 .image{
+height:55px;
+}
+
+
+
+
+
+#teamchart-div.nature.framemode ul li li > * li .name,
+#teamchart-div.nature.framemode ul:not(.first) > ul:not(.first) li li .Job,
+#teamchart-div.nature.framemode ul:not(.first) > ul:not(.first) li li .name{
+display:table !important;
+}
+#teamchart-div.nature.framemode ul li li > * li .Job{
+display:block !important;
+}
+#teamchart-div.nature.framemode li li li.col-2 .image,
+#teamchart-div.nature.framemode li li.col-4 .image ,
+#teamchart-div.nature.framemode li li li.col-3 .image{
+height:auto !important;
+}
+}
+
+/*
+
+LIGHTBOX
+
+*/
+
+
+.nature .fancybox-inner .person-fancybox .photo {width:40%;overflow:hidden;float:left;height: 250px;
+padding: 3%;background: url("../images/nature-theme/pattern-left.png");
+background-image: url("../images/nature-theme/pattern-right.png"), url("../images/nature-theme/pattern-left.png");
+background-position: right top,left top;
+background-repeat: repeat-y,repeat;
+position:relative;z-index:10;}
+.nature .fancybox-inner .person-fancybox .photo img {width:100%;}
+.nature .fancybox-inner .person-fancybox .text {float:left;width:58%;margin-left:2%;padding: 2%;}
+.nature .fancybox-inner .person-fancybox .text h2 {color:#5b553f;font-weight:bold;font-size:20px;margin:2px 0;padding:0;}
+.nature .fancybox-inner .person-fancybox .text h4 {color:#657603;font-weight:300;margin:0 0 20px 0;padding:0;font-size:14px;}
+.nature .fancybox-inner .person-fancybox .text p {color: #827c67;
+font-weight: 300;
+font-size: 13px;
+}
+.nature .fancybox-inner .person-fancybox .teamchartdescription {  height: 135px; overflow-y: auto;}
+.nature .fancybox-inner .person-fancybox .teamchartdescription p {
+	margin: 0;
+}
+
+.nature .fancybox-skin {
+background: url("../images/nature-theme/pattern-popup.png") !important;
+-webkit-border-radius: 0px !important;
+-moz-border-radius: 0px  !important;
+border-radius: 0px  !important;
+padding:0 !important;
+}
+
+
+.nature a.fancybox-item.fancybox-close {
+width: 40px;
+height: 27px;
+background: url("../images/nature-theme/close-normal.jpg");
+top: 5px;
+right: 0;	
+transition:all 0.3s linear;
+-moz-transition:all 0.3s linear;
+
+-webkit-transition:all 0.3s linear;
+}
+.nature a.fancybox-item.fancybox-close:hover {background: url("../images/nature-theme/close-hover.jpg");}
+
+/*//Fix conflict css*/
+#teamchart-div ul li:before{
+	content: none !important;
+}

@@ -1,0 +1,704 @@
+# Translation of Plugins - Multi Step Form - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Multi Step Form - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-02-08 03:55:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Multi Step Form - Stable (latest release)\n"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:87
+msgid "Multiple Files"
+msgstr "Vários arquivos"
+
+#: includes/class-mondula-multistep-forms-settings.php:172
+msgid "Please enter your MSF-Plus license key.<br> Having trouble? <a href=\"mailto:info@mondula.com\">Leave us a message</a>."
+msgstr "Informe sua chave de licença do MSF-Plus.<br> Precisa de ajuda? <a href=\"mailto:info@mondula.com\">Mande uma mensagem</a>."
+
+#: includes/class-mondula-multistep-forms-settings.php:171
+msgid "License Key"
+msgstr "Chave de licença"
+
+#: includes/class-mondula-multistep-forms-settings.php:80
+msgid "GET MSF-PLUS"
+msgstr "OBTER O MSF-PLUS"
+
+#: includes/class-mondula-multistep-forms-settings.php:75
+msgid "PLUS"
+msgstr "PLUS"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:74
+msgid "ERROR: only 10 steps are possible"
+msgstr "ERRO: é possível ter apenas 10 etapas"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:107
+msgid "Please select the registration fields to be displayed to the user. Email is always required. If the user does not specify a username or password, WordPress is auto-generating these and sending them to the user via email."
+msgstr "Selecione os campos de cadastro a ser exibidos para o usuário. O e-mail é sempre obrigatório. Se o usuário não definir um nome de usuário ou senha, o WordPress irá gerá-los automaticamente e enviar ao usuário por e-mail."
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:108
+msgid "You are already registered and logged in."
+msgstr "Você já está registrado e logado."
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:109
+msgid "Username"
+msgstr "Usuário"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:110
+#: includes/class-mondula-multistep-forms-settings.php:48
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:111
+msgid "Password"
+msgstr "Senha"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:112
+msgid "Confirm Password"
+msgstr "Confirme a senha"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:113
+msgid "First Name"
+msgstr "Nome"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:114
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:115
+msgid "Website"
+msgstr "Site"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:116
+msgid "Biographical Info"
+msgstr "Informação biográfica"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:206
+msgid "Invalid JSON-File. Check your syntax."
+msgstr "O arquivo JSON é inválido. Verifique sua sintaxe."
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:234
+msgid "Forms must be imported as JSON files"
+msgstr "Os formulários devem ser importados como arquivos JSON"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:264
+msgid "Import a Form"
+msgstr "Importar um formulário"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:267
+msgid "Upload & Import"
+msgstr "Enviar e importar"
+
+#: includes/admin/class-mondula-multistep-forms-list-table.php:89
+msgid "Export"
+msgstr "Exportar"
+
+#: includes/class-mondula-multistep-forms-settings.php:60
+msgid "Form Entries"
+msgstr "Entradas do formulário"
+
+#: includes/class-mondula-multistep-forms-settings.php:65
+msgid "Conditional Fields"
+msgstr "Campos condicionais"
+
+#: includes/class-mondula-multistep-forms-settings.php:70
+msgid "User Registration"
+msgstr "Registro de usuário"
+
+#: includes/class-mondula-multistep-forms-settings.php:183
+msgid "Enable entry saving"
+msgstr "Permitir salvar entradas"
+
+#: includes/class-mondula-multistep-forms-settings.php:184
+msgid "Save submitted forms to the database"
+msgstr "Salvar formulários enviados no banco de dados"
+
+#: includes/class-mondula-multistep-forms-settings.php:190
+msgid "Entries per page"
+msgstr "Entradas por página"
+
+#: includes/class-mondula-multistep-forms-settings.php:191
+msgid "How many entries to show on each page in the backend"
+msgstr "Quantas entradas a exibir em cada página no painel"
+
+#: includes/class-mondula-multistep-forms-settings.php:208
+msgid "Enable conditional blocks"
+msgstr "Permitir blocos condicionais"
+
+#: includes/class-mondula-multistep-forms-settings.php:209
+msgid "Display some form elements only when others are filled."
+msgstr "Exibir alguns elementos de formulário apenas quando outros estiverem preenchidos."
+
+#: includes/class-mondula-multistep-forms-settings.php:218
+msgid "Enable user registration"
+msgstr "Permitir registro de usuário"
+
+#: includes/class-mondula-multistep-forms-settings.php:219
+msgid "Enable the registration block. You need to add it to each form."
+msgstr "Permitir bloqueio de registro. Você precisa adicioná-lo a cada formulário."
+
+#: includes/class-mondula-multistep-forms-settings.php:225
+msgid "Notify new users"
+msgstr "Notificar novos usuários"
+
+#: includes/class-mondula-multistep-forms-settings.php:226
+msgid "Email login credentials to a newly-registered user."
+msgstr "Envie por e-mail as credenciais de acesso para o usuário recém registrado."
+
+#: includes/class-mondula-multistep-forms-settings.php:233
+msgid "Save the filled forms as metadata along with registered/registering users."
+msgstr "Salvar os formulários preenchidos como metadados juntamente com os usuários registrados/registrando."
+
+#: includes/class-mondula-multistep-forms-settings.php:232
+msgid "Save Metadata"
+msgstr "Salvar metadados"
+
+#: includes/class-mondula-multistep-forms.php:166
+msgid "Registration"
+msgstr "Registro"
+
+#: includes/class-mondula-multistep-forms.php:167
+msgid "You are registering as"
+msgstr "Você está se registrando como"
+
+#: includes/class-mondula-multistep-forms.php:168
+msgid "You will not be registered"
+msgstr "Você não será registrado"
+
+#: includes/class-mondula-multistep-forms.php:174
+msgid "No email address provided"
+msgstr "Endereço de email vazio"
+
+#: includes/class-mondula-multistep-forms.php:175
+msgid "Invalid email address"
+msgstr "Endereço de e-mail inválido"
+
+#: includes/class-mondula-multistep-forms.php:176
+msgid "Email is already registered"
+msgstr "O e-mail já está registrado"
+
+#: includes/class-mondula-multistep-forms.php:177
+msgid "No username provided"
+msgstr "Nome de usuário vazio"
+
+#: includes/class-mondula-multistep-forms.php:178
+msgid "Invalid username"
+msgstr "Nome de usuário inválido"
+
+#: includes/class-mondula-multistep-forms.php:179
+msgid "Username is already registered"
+msgstr "O nome de usuário já está registrado"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:100
+msgid "Set placeholder"
+msgstr "Definir espaço reservado"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:88
+msgid "Date Format"
+msgstr "Formato da data"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:65
+msgid "click for date format specifications"
+msgstr "clique para ver as especificações do formato de data"
+
+#: includes/admin/class-mondula-multistep-forms-list-table.php:88
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#. Author of the plugin/theme
+msgid "Mondula GmbH"
+msgstr "Mondula GmbH"
+
+#. Description of the plugin/theme
+msgid "Create and embed Multi Step Form."
+msgstr "Crie e incorpore formulários de várias etapas."
+
+#. #-#-#-#-#  multi-step-form-code.pot (Multi Step Form 1.2.3)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  multi-step-form-code.pot (Multi Step Form 1.2.3)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.mondula.com/"
+msgstr "http://www.mondula.com/"
+
+#. Plugin Name of the plugin/theme
+msgid "Multi Step Form"
+msgstr "Multi Step Form"
+
+#: includes/lib/class-mondula-multistep-forms-wizard.php:317
+msgid "End of form submission"
+msgstr "Fim do envio do formulário"
+
+#: includes/lib/class-mondula-multistep-forms-wizard.php:245
+msgid "Next Step"
+msgstr "Próxima etapa"
+
+#: includes/lib/class-mondula-multistep-forms-wizard.php:244
+msgid "Previous Step"
+msgstr "Etapa anterior"
+
+#: includes/lib/class-mondula-multistep-forms-wizard.php:229
+msgid "Submit"
+msgstr "Enviar"
+
+#: includes/lib/class-mondula-multistep-forms-wizard.php:221
+msgid "SHOW SUMMARY"
+msgstr "MOSTRAR RESUMO"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:79
+msgid "No %s found"
+msgstr "Nenhum %s foi encontrado"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:78
+msgid "Choose from the most used %s"
+msgstr "Escolha entre os %s mais usados"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:77
+msgid "Add or remove %s"
+msgstr "Adicione ou remova %s"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:76
+msgid "Separate %s with commas"
+msgstr "Separe %s com vírgulas"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:75
+msgid "Popular %s"
+msgstr "%s populares"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:73
+msgid "Parent %s:"
+msgstr "%s ascendente:"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:71
+msgid "New %s Name"
+msgstr "Nome do novo %s"
+
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:69
+msgid "Update %s"
+msgstr "Atualizar %s"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:141
+msgid "%1$s %2$s restored from the Trash."
+msgid_plural "%1$s %3$s restored from the Trash."
+msgstr[0] "%1$s %2$s restaurado da Lixeira."
+msgstr[1] "%1$s %3$s restaurados da Lixeira."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:140
+msgid "%1$s %2$s moved to the Trash."
+msgid_plural "%1$s %3$s moved to the Trash."
+msgstr[0] "%1$s %2$s movido para a Lixeira."
+msgstr[1] "%1$s %3$s movidos para a Lixeira."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:139
+msgid "%1$s %2$s permanently deleted."
+msgid_plural "%1$s %3$s permanently deleted."
+msgstr[0] "%1$s %2$s excluído permanentemente."
+msgstr[1] "%1$s %3$s excluídos permanentemente."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:138
+msgid "%1$s %2$s not updated, somebody is editing it."
+msgid_plural "%1$s %3$s not updated, somebody is editing them."
+msgstr[0] "%1$s %2$s not updated, somebody is editing it."
+msgstr[1] "%1$s %3$s não foram atualizados, alguém os está editando."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:137
+msgid "%1$s %2$s updated."
+msgid_plural "%1$s %3$s updated."
+msgstr[0] "%1$s %2$s atualizado."
+msgstr[1] "%1$s %3$s atualizados."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:122
+msgid "%1$s draft updated. %2$sPreview %3$s%4$s."
+msgstr "O rascunho do %1$s foi atualizado. %2$sVisualizar %3$s%4$s."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:121
+msgid "M j, Y @ G:i"
+msgstr "j \\d\\e M \\d\\e Y \\à\\s G:i"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:121
+msgid "%1$s scheduled for: %2$s. %3$sPreview %4$s%5$s."
+msgstr "%1$s foi programado para: %2$s. %3$sVisualizar %4$s%5$s."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:120
+msgid "%1$s submitted. %2$sPreview post%3$s%4$s."
+msgstr "%1$s enviado. %2$sVisualizar o post %3$s%4$s."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:119
+msgid "%1$s saved."
+msgstr "%1$s foi salvo."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:118
+msgid "%1$s published. %2$sView %3$s%4s."
+msgstr "%1$s foi publicado. %2$sVer %3$s%4s."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:117
+msgid "%1$s restored to revision from %2$s."
+msgstr "%1$s foi restaurado para a revisão de %2$s."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:116
+msgid "%1$s updated."
+msgstr "%1$s foi atualizado."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:115
+msgid "Custom field deleted."
+msgstr "O campo personalizado foi excluído."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:114
+msgid "Custom field updated."
+msgstr "O campo personalizado foi atualizado."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:113
+msgid "%1$s updated. %2$sView %3$s%4$s."
+msgstr "%1$s atualizado. %2$sVer %3$s%4$s."
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:76
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:72
+msgid "Parent %s"
+msgstr "%s ascendente"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:75
+msgid "No %s Found In Trash"
+msgstr "Nenhuma %s foi encontrado na Lixeira"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:74
+msgid "No %s Found"
+msgstr "Nenhum %s foi encontrado"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:73
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:74
+msgid "Search %s"
+msgstr "Pesquisar %s"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:72
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:68
+msgid "View %s"
+msgstr "Ver %s"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:71
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:66
+msgid "All %s"
+msgstr "Todas os %s"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:70
+msgid "New %s"
+msgstr "Novo %s"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:69
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:67
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: includes/lib/class-mondula-multistep-forms-post-type.php:68
+#: includes/lib/class-mondula-multistep-forms-taxonomy.php:70
+msgid "Add New %s"
+msgstr "Adicionar novo %s"
+
+#: includes/lib/class-mondula-multistep-forms-admin-api.php:160
+msgid "Remove image"
+msgstr "Remover a imagem"
+
+#: includes/lib/class-mondula-multistep-forms-admin-api.php:159
+msgid "Upload new image"
+msgstr "Enviar uma nova imagem"
+
+#: includes/lib/class-mondula-multistep-forms-admin-api.php:159
+msgid "Use image"
+msgstr "Usar imagem"
+
+#: includes/lib/class-mondula-multistep-forms-admin-api.php:159
+msgid "Upload an image"
+msgstr "Enviar uma imagem"
+
+#: includes/class-mondula-multistep-forms.php:173
+#: includes/lib/class-mondula-multistep-forms-wizard.php:223
+msgid "Please check the highlighted fields."
+msgstr "Verifique os campos assinalados."
+
+#: includes/class-mondula-multistep-forms.php:172
+#: includes/lib/class-mondula-multistep-forms-wizard.php:223
+msgid "Some required Fields are empty"
+msgstr "Alguns campos obrigatórios estão vazios"
+
+#: includes/class-mondula-multistep-forms.php:171
+msgid "This field is required"
+msgstr "Este campo é obrigatório"
+
+#: includes/class-mondula-multistep-forms.php:170
+msgid "Please fill all the required fields!"
+msgstr "Preencha todos os campos obrigatórios!"
+
+#: includes/class-mondula-multistep-forms.php:165
+msgid "hide summary"
+msgstr "esconder resumo"
+
+#: includes/class-mondula-multistep-forms.php:164
+msgid "show summary"
+msgstr "mostrar resumo"
+
+#: includes/class-mondula-multistep-forms.php:163
+#: includes/lib/class-mondula-multistep-forms-block-file.php:35
+msgid "Choose a file"
+msgstr "Escolha um arquivo"
+
+#: includes/class-mondula-multistep-forms.php:162
+msgid "Uploading file"
+msgstr "Enviando arquivo"
+
+#: includes/class-mondula-multistep-forms.php:161
+msgid "submit failed"
+msgstr "falha no envio"
+
+#: includes/class-mondula-multistep-forms.php:160
+msgid "success"
+msgstr "sucesso"
+
+#: includes/class-mondula-multistep-forms.php:159
+msgid "sending data"
+msgstr "enviando dados"
+
+#: includes/class-mondula-multistep-forms-settings.php:294
+#: includes/class-mondula-multistep-forms-settings.php:301
+#: includes/class-mondula-multistep-forms.php:288
+#: includes/class-mondula-multistep-forms.php:297
+msgid "Cheatin&#8217; huh?"
+msgstr "Trapaceando, é?"
+
+#: includes/class-mondula-multistep-forms-settings.php:160
+msgid "Choose a color for the buttons"
+msgstr "Escolha uma cor para os botões"
+
+#: includes/class-mondula-multistep-forms-settings.php:159
+msgid "Button Color"
+msgstr "Cor do botão"
+
+#: includes/class-mondula-multistep-forms-settings.php:153
+msgid "Choose a color for the steps to follow"
+msgstr "Escolha uma cor para as etapas a seguir"
+
+#: includes/class-mondula-multistep-forms-settings.php:152
+msgid "Next Step Color"
+msgstr "Cor da próxima etapa"
+
+#: includes/class-mondula-multistep-forms-settings.php:146
+msgid "Choose a color for the completed steps"
+msgstr "Escolha uma cor para as etapas concluídas"
+
+#: includes/class-mondula-multistep-forms-settings.php:145
+msgid "Visited Step Color"
+msgstr "Cor da etapa visitada"
+
+#: includes/class-mondula-multistep-forms-settings.php:139
+msgid "Choose a color for the active step"
+msgstr "Escolha uma cor para a etapa atual"
+
+#: includes/class-mondula-multistep-forms-settings.php:138
+msgid "Active Step Color"
+msgstr "Cor da etapa atual"
+
+#: includes/class-mondula-multistep-forms-settings.php:132
+msgid "Boxed frontend styling. Uncheck the checkbox to get a plain layout."
+msgstr "Estilo em caixa na parte frontal do site. Desmarque a caixa de seleção para obter um layout simples."
+
+#: includes/class-mondula-multistep-forms-settings.php:131
+msgid "Boxed Layout"
+msgstr "Layout em caixa"
+
+#: includes/class-mondula-multistep-forms-settings.php:125
+msgid "Show progress bar"
+msgstr "Mostrar barra de progresso"
+
+#: includes/class-mondula-multistep-forms-settings.php:124
+msgid "Progress Bar"
+msgstr "Barra de progresso"
+
+#: includes/class-mondula-multistep-forms-settings.php:116
+msgid "Send copy of submitted data to user"
+msgstr "Mandar uma cópia dos dados enviados para o usuário"
+
+#: includes/class-mondula-multistep-forms-settings.php:115
+msgid "CC"
+msgstr "CC"
+
+#: includes/class-mondula-multistep-forms-settings.php:109
+msgid "Display Summary at the end of each form"
+msgstr "Exibir um resumo ao final de cada formulário"
+
+#: includes/class-mondula-multistep-forms-settings.php:108
+msgid "Summary"
+msgstr "Resumo"
+
+#: includes/class-mondula-multistep-forms-settings.php:98
+msgid "Choose formatting for form emails"
+msgstr "Escolha o formato para os seus e-mails"
+
+#: includes/class-mondula-multistep-forms-settings.php:97
+msgid "Mail Format"
+msgstr "Formato do e-mail"
+
+#: includes/class-mondula-multistep-forms-settings.php:52
+msgid "Styling"
+msgstr "Estilo"
+
+#: includes/class-mondula-multistep-forms-settings-api.php:282
+msgid "Choose File"
+msgstr "Escolha um arquivo"
+
+#: includes/admin/class-mondula-multistep-forms-list-table.php:87
+msgid "Delete"
+msgstr "Apagar"
+
+#: includes/admin/class-mondula-multistep-forms-list-table.php:86
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:437
+#: includes/admin/class-mondula-multistep-forms-admin.php:470
+msgid "Save"
+msgstr "Salvar"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:257
+msgid "Add New"
+msgstr "Adicionar novo"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:104
+msgid "Paragraph text"
+msgstr "Texto de parágrafo"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:103
+msgid "Text/HTML"
+msgstr "Texto/HTML"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:99
+msgid "Enable search"
+msgstr "Ativar pesquisa"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:98
+msgid "Options (one per line)"
+msgstr "Opções (uma por linha)"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:95
+msgid "Multiple Selection"
+msgstr "Seleção múltipla"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:94
+msgid "Add option"
+msgstr "Adicionar opção"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:93
+msgid "Options"
+msgstr "Opções"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:92
+msgid "Option"
+msgstr "Opção"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:91
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:89
+msgid "Required"
+msgstr "Obrigatório"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:86
+msgid "Label"
+msgstr "Rótulo"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:85
+msgid "Add Element"
+msgstr "Adicionar elemento"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:84
+msgid "Add Section"
+msgstr "Adicionar seção"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:83
+#: includes/admin/class-mondula-multistep-forms-admin.php:450
+msgid "Add Step"
+msgstr "Adicionar etapa"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:82
+msgid "Section Title"
+msgstr "Título da seção"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:81
+msgid "Step description"
+msgstr "Descrição da etapa"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:80
+msgid "Step Headline"
+msgstr "Cabeçalho da etapa"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:79
+msgid "Step Title"
+msgstr "Título da etapa"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:77
+msgid "Do you really want to delete this block?"
+msgstr "Você realmente deseja excluir esse bloco?"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:76
+msgid "Do you really want to delete this section?"
+msgstr "Você realmente deseja excluir essa seção?"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:75
+msgid "Do you really want to delete this step?"
+msgstr "Você realmente deseja excluir essa etapa?"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:73
+msgid "ERROR: only 5 steps are allowed in the free version"
+msgstr "ERRO: apenas 5 etapas são permitidas na versão gratuita"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:72
+msgid "WARNING: You need to provide title for the form"
+msgstr "AVISO: Você precisa informar um título para o formulário"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:71
+msgid "WARNING: You need to provide a title for each section"
+msgstr "AVISO: Você precisa informar um título para cada seção"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:70
+msgid "WARNING: You need to provide a title for each step"
+msgstr "AVISO: Você precisa informar um título para cada etapa"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:69
+msgid "You need to provide an email subject"
+msgstr "Você precisa informar o assunto do e-mail"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:68
+msgid "You need to enter a valid email address"
+msgstr "Você precisa inserir um endereço de email válido"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:64
+msgid "Provide a static text block for explanations or additional info. You can use HTML for formatting."
+msgstr "Fornece um bloco de texto estático para explicações ou informações adicionais. Você pode usar HTML para formatação."
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:63
+msgid "Multi-Select uses checkboxes. Single-Select has radio-buttons."
+msgstr "A seleção múltipla usa caixas de seleção. A seleção individual usa botões de rádio."
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:62
+msgid "remove element"
+msgstr "remover elemento"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:61
+msgid "remove section"
+msgstr "remover seção"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:60
+msgid "remove step"
+msgstr "remover etapa"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:59
+msgid "The step description is displayed below the step headline"
+msgstr "O título da etapa é exibido abaixo da barra de progresso"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:58
+msgid "The step headline is displayed above the progress bar"
+msgstr "O título da etapa é exibido acima da barra de progresso"
+
+#: includes/admin/class-mondula-multistep-forms-admin.php:57
+msgid "The step title is displayed below the progress bar"
+msgstr "O título da etapa é exibido abaixo da barra de progresso"

@@ -1,0 +1,40 @@
+#chart_div {
+    margin: 10px 0;
+}
+#mybootstrap input,
+#mybootstrap select {
+    margin: 1px;
+    padding: 3px 5px !important;
+    height: inherit !important;
+}
+
+#mybootstrap .input-append {
+    display: inline-block;
+    margin-bottom: 9px;
+    vertical-align: middle;
+    font-size: 0;
+    white-space: nowrap;
+}
+#mybootstrap .search-choice {
+    line-height: 13px !important;
+}
+.from-date, .to-date, .selection_value {
+    float: left;
+    margin-left: 10px;
+}
+span.lbl-date{
+    display: inline-block;
+}
+.selection {
+    float: left;
+}
+.text-right {
+    text-align: right;
+}
+.chzn-choices,.chzn-results {
+    margin: 0 !important;
+}
+
+.chzn-choices input {
+    margin-bottom: 0 !important;
+}

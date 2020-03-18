@@ -1,0 +1,8 @@
+/* CSS Document */
+
+img.wpSpot {
+border: 1px dashed #ccc;
+background: #fefefe url("../images/spot.png") no-repeat scroll center center;
+width: 100%;
+height: 80px;
+}

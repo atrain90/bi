@@ -1,0 +1,28 @@
+$root-font-size: 16px;
+$panel-width: 300px;
+/* Columns */
+$core-sidebar-width: 20%;
+$core-main-width: calc(100% - #{2 * $core-sidebar-width});
+
+$orange-color: #ff8726;
+$emerald-color: #49bf88;
+$lime-color: #5dca70;
+$white-color: #fff;
+$gray-color: #6a8ba5;
+$small-radius: 4px;
+$large-radius: 40px;
+$cyan-color: #2196f3;
+$button_shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+$option-font: 'Nunito Sans', sans-serif;
+$heading-color: #394857;
+$setting-color: #404852;
+$setting-help-color: #5f879b;
+$h1-font-size: 35px;
+$input-line-height: 45px;
+$input-min-width: 200px;
+
+/* Wizard variables */
+$wizard-primary-font-family: 'Nunito Sans', sans-serif;
+$wizard-secondary-font-color: #404852;
+$wizard-main-content-width: 640px;

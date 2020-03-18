@@ -1,0 +1,479 @@
+/** 
+ * Wpfd
+ * 
+ * We developed this code with our hearts and passion.
+ * We hope you found it useful, easy to understand and to customize.
+ * Otherwise, please feel free to contact us at contact@joomunited.com *
+ * @package WP File Download
+ * @copyright Copyright (C) 2013 JoomUnited (http://www.joomunited.com). All rights reserved.
+ * @copyright Copyright (C) 2013 Damien Barrère (http://www.crac-design.com). All rights reserved.
+ * @license GNU General Public License version 2 or later; http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+.wpfd-content-table {
+    font-family: "robotoregular";
+}
+
+.wpfd-content-table tr,
+.wpfd-content-table td,
+.wpfd-content-table thead,
+.wpfd-content-table tbody,
+.wpfd-content-table th {
+    border: none;
+}
+
+.wpfd-content-table a {
+    text-decoration: none !important;
+    border-bottom: 0;
+    box-shadow: none;
+}
+
+.wpfd-content-table a.wpfd_downloadlink {
+    color: #444;
+    text-transform: none;
+}
+
+.wpfd-content-table tr,
+.wpfd-content-table td,
+.wpfd-content-table thead,
+.wpfd-content-table tbody,
+.wpfd-content-table th {
+    font-size: 13px;
+}
+
+.wpfd-content-table a:focus {
+    outline: none;
+}
+
+.wpfd-content-table h2 {
+    padding: 10px 0 0 0;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-family: "robotoregular";
+    color: #595959;
+}
+
+.wpfd-content-table table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: auto;
+}
+
+.wpfd-content-table .table {
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 2px 5px 3px #eee;
+    -moz-box-shadow: 0 2px 5px 3px #eee;
+    box-shadow: 0 2px 5px 3px #eee;
+    display: table;
+    table-layout: auto;
+    box-sizing: content-box;
+}
+
+.wpfd-content-table .table th,
+.wpfd-content-table .table td {
+    padding: 15px 0 15px 10px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: middle;
+    border-top: 1px solid #eee;
+}
+
+.wpfd-content-table .table th {
+    font-weight: bold;
+    background-color: #e0e0e0;
+}
+
+.wpfd-content-table .table thead th {
+    vertical-align: bottom;
+}
+
+.wpfd-content-table .table caption + thead tr:first-child th,
+.wpfd-content-table .table caption + thead tr:first-child td,
+.wpfd-content-table .table colgroup + thead tr:first-child th,
+.wpfd-content-table .table colgroup + thead tr:first-child td,
+.wpfd-content-table .table thead:first-child tr:first-child th,
+.wpfd-content-table .table thead:first-child tr:first-child td {
+    border-top: 0;
+}
+
+.wpfd-content-table .table tbody + tbody {
+    border-top: 2px solid #dddddd;
+}
+
+.wpfd-content-table .table {
+    background-color: #ffffff;
+}
+
+.wpfd-content-table .table-condensed th,
+.wpfd-content-table .table-condensed td {
+    padding: 4px 5px;
+}
+
+.wpfd-content-table .table-bordered {
+    border: none;
+    border-collapse: separate;
+    *border-collapse: collapse;
+    border-left: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.wpfd-content-table .table-bordered th,
+.wpfd-content-table .table-bordered td {
+    border-left: none;
+}
+
+.wpfd-content-table .table-bordered caption + thead tr:first-child th,
+.wpfd-content-table .table-bordered caption + tbody tr:first-child th,
+.wpfd-content-table .table-bordered caption + tbody tr:first-child td,
+.wpfd-content-table .table-bordered colgroup + thead tr:first-child th,
+.wpfd-content-table .table-bordered colgroup + tbody tr:first-child th,
+.wpfd-content-table .table-bordered colgroup + tbody tr:first-child td,
+.wpfd-content-table .table-bordered thead:first-child tr:first-child th,
+.wpfd-content-table .table-bordered tbody:first-child tr:first-child th,
+.wpfd-content-table .table-bordered tbody:first-child tr:first-child td {
+    border-top: 0;
+}
+
+.wpfd-content-table .table-striped tbody > tr:nth-child(odd) > td,
+.wpfd-content-table .table-striped tbody > tr:nth-child(odd) > th {
+    background-color: #ffffff;
+}
+
+.wpfd-content-table .table-hover tbody tr:hover > td,
+.wpfd-content-table .table-hover tbody tr:hover > th {
+    background-color: #f5f5f5;
+}
+
+.wpfd-content-table .extcol {
+    text-align: center;
+    /*display: inline-flex;*/
+}
+
+.wpfd-content-table .icon-custom img {
+    width: 35px;
+    display: inline-block;
+    padding-left: 8px;
+}
+
+.wpfd-content-table .icon-custom .icon-custom-title {
+    margin-left: 3px;
+    vertical-align: top;
+}
+
+.wpfd-content-table span.ext {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../../../assets/images/theme/neutral.png) no-repeat center center;
+    background-size: 70% 100%;
+}
+
+.wpfd-content-table span.ext.docx {
+    background-image: url(../../../assets/images/theme/docx.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.doc {
+    background-image: url(../../../assets/images/theme/docx.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.wmv {
+    background-image: url(../../../assets/images/theme/wmv.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.mp3 {
+    background-image: url(../../../assets/images/theme/mp3.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.mp4 {
+    background-image: url(../../../assets/images/theme/mp4.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.zip {
+    background-image: url(../../../assets/images/theme/zip.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.jpeg {
+    background-image: url(../../../assets/images/theme/jpg.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.jpg {
+    background-image: url(../../../assets/images/theme/jpg.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.avi {
+    background-image: url(../../../assets/images/theme/avi.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.wav {
+    background-image: url(../../../assets/images/theme/wav.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.txt {
+    background-image: url(../../../assets/images/theme/txt.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.csv {
+    background-image: url(../../../assets/images/theme/csv.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.eps {
+    background-image: url(../../../assets/images/theme/eps.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.pptx {
+    background-image: url(../../../assets/images/theme/pptx.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.ppt {
+    background-image: url(../../../assets/images/theme/pptx.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.mpeg {
+    background-image: url(../../../assets/images/theme/mpeg.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.gif {
+    background-image: url(../../../assets/images/theme/gif.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.rar {
+    background-image: url(../../../assets/images/theme/rar.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.bmp {
+    background-image: url(../../../assets/images/theme/bmp.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.tiff {
+    background-image: url(../../../assets/images/theme/tiff.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.wma {
+    background-image: url(../../../assets/images/theme/wma.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.xlsx {
+    background-image: url(../../../assets/images/theme/xlsx.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.xls {
+    background-image: url(../../../assets/images/theme/xlsx.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.html {
+    background-image: url(../../../assets/images/theme/html.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.psd {
+    background-image: url(../../../assets/images/theme/psd.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.pdf {
+    background-image: url(../../../assets/images/theme/pdf.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.png {
+    background-image: url(../../../assets/images/theme/png.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.fla {
+    background-image: url(../../../assets/images/theme/fla.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.mov {
+    background-image: url(../../../assets/images/theme/mov.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.css {
+    background-image: url(../../../assets/images/theme/css.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext.exe {
+    background-image: url(../../../assets/images/theme/exe.png);
+    color: transparent;
+}
+
+.wpfd-content-table span.ext .txt {
+    position: absolute;
+    top: 48px;
+    left: 7px;
+    display: block;
+    width: 35px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.wpfd-content-table.wpfd-content .downloadlink {
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+.wpfd-content-table.wpfd-content .downloadlink:hover,
+.wpfd-content-table.wpfd-content .openlink:hover {
+    box-shadow: 1px 1px 12px #ccc;
+}
+
+.wpfd-content-table.wpfd-content .openlink {
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+.wpfd-foldertree-table {
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling:touch;
+}
+
+.wpfd-foldertree-table > .jaofiletree {
+    margin-top: 20px !important;
+}
+
+.wpfd-container-table {
+    box-sizing: border-box;
+    padding: 0 15px 0 15px;
+    width: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling:touch;
+    position: relative;
+}
+
+.wpfd-content-table .wpfd-container-table.with_foldertree {
+    width: 70%;
+    padding: 0 5px;
+    margin: 0;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.wpfd-content-table .mediaTableWrapperWithMenu {
+    padding-top: 1em;
+}
+
+.mediaTableWrapper .mediaTable .col-download {
+    text-align: left;
+    max-width: 145px !important;
+    width: 145px !important;
+    padding: 5px;
+}
+
+.wpfd-content-table.colstyle .mediaTableMenu {
+    margin-top: 27px;
+    right: 10px;
+    box-shadow: none !important;
+}
+
+.wpfd-content-table.colstyle .mediaTableMenu a {
+    padding: 0 15px;
+    border-radius: 5px;
+}
+
+.wpfd-content-table .table-download-category {
+    background-color: #eeeeee;
+    border-color: #dadada;
+    border-radius: 15px;
+    color: #444 !important;
+    font-size: 13px;
+    margin: 6px 5px;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 32px;
+    line-height: 22px;
+    float: right;
+}
+
+.wpfd-content-table .table-download-category .wpfd-download-category {
+    margin-left: 3px;
+    vertical-align: text-bottom;
+    font-size: 20px;
+}
+
+.wpfd-content-table .table-download-category {
+    cursor: pointer;
+}
+
+.wpfd-content-table .table-download-category.display-download-category {
+    display: none;
+}
+
+.wpfd-content .head-category-table {
+    padding: 8px 15px !important;
+    margin: 0 0 0 0;
+    list-style: outside none none;
+    background: #fafafa;
+    font-family: "robotomedium";
+    font-size: 24px;
+    color: #888;
+}
+
+.wpfd-content .head-category-table > li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+@media (max-width: 640px) {
+    ul.jaofiletree li {
+        padding-left: 10px;
+    }
+
+    .wpfd-foldertree-table {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .wpfd-content-table .wpfd-container-table, .wpfd-content-table .wpfd-container-table.with_foldertree {
+        width: 100%;
+    }
+
+    .foldertreetable-hide {
+        display: none;
+    }
+}
+
+a .zmdi {
+    font-size: 16px;
+}

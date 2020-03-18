@@ -1,0 +1,412 @@
+
+#teamchart-div.circle * {padding:0;margin:0;}
+#teamchart-div.circle {overflow: auto;
+padding: 19px;}
+#teamchart-div.circle .person {cursor:pointer;width:100%;max-width:200px;display:block;position:relative;z-index:2;
+
+margin:0 auto;
+text-align: center;-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+#teamchart-div.circle .person:hover {}
+
+
+#teamchart-div.circle .person .image {width: 91%;border-radius: 50%;
+overflow: visible;
+margin: 0 auto;} 
+
+
+
+
+#teamchart-div.circle .person .text{
+background: #f0f0f0;border-radius:22px;
+position:relative;z-index:10;
+
+}
+
+#teamchart-div.circle .person .image img:hover{border:10px solid #AAAAAA;}
+
+
+#teamchart-div.circle .person .image img {opacity:1;border-radius:50%;box-shadow:none;width:100%;border:10px solid #ffffff;-webkit-box-shadow:  0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+box-shadow:  0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+transition:all 0.3s linear;-moz-transition:all 0.3s linear;
+-webkit-transition:all 0.3s linear;
+}
+#teamchart-div.circle .person .name {position:relative;color:#566b56;font-weight:normal; display: table;height:49px;width:100%;
+}
+#teamchart-div.circle .person .name p{display: table-cell; vertical-align: middle; text-align: center;width:100%;
+-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;padding: 0 10px;
+}
+#teamchart-div.circle .person .Job {color:#869183;font-weight:300;font-size:12px;word-wrap: break-word;text-align:center;height: auto;
+padding: 0 8px;overflow:hidden;}
+
+
+#teamchart-div.circle ul {
+	padding-top: 20px; position: relative;text-align:center;
+	
+}
+
+#teamchart-div.circle ul#first{padding-top: 0px;}
+
+#teamchart-div.circle li:only-child{
+	text-align:center;
+	padding: 20px 0;	
+	width:100%;
+}
+#teamchart-div.circle  li {	
+	text-align:center;
+	list-style-type: none;
+	position: relative;
+	padding: 20px 10px;	
+	vertical-align: top;
+	display:inline-block;
+	word-wrap: normal;
+}
+
+
+
+
+/*
+Line connector parents
+*/
+
+#teamchart-div.circle  li.parents > div.person::before,
+#teamchart-div.circle  li.parents > div.person::after{
+display:none;
+}
+
+#teamchart-div.circle  li.parents::before{
+content: '';
+position: absolute;
+top: 100px;
+left: 0;
+width: 50%;
+z-index: 0;
+border-top: 3px solid #EDEDED;
+border-left: 0;
+border-right: 0;
+height: 20px;
+}
+#teamchart-div.circle  li.parents::after{
+content: '';
+position: absolute;
+top: 100px;
+right: 0;
+width: 50%;
+z-index: 0;
+border-top: 3px solid #EDEDED;
+border-left: 0;
+border-right: 0;
+height: 20px;
+}
+
+#teamchart-div.circle  li.parents:first-child::before{
+	border-top: none;
+z-index: 1;
+width: 50%;
+left: -23%;}
+#teamchart-div.circle  li.parents:last-child::after{
+	border-top: none;
+z-index: 0;
+width: 50%;
+right: -43%;}
+
+
+#teamchart-div.circle li.parents > div.person {position:relative;}
+#teamchart-div.circle li.parents:last-child > div.person::after {border-top:none;}
+
+#teamchart-div.circle li.parents:last-child > div.person::before{border-right:none;z-index: -99999;
+position: relative;}
+#teamchart-div.circle li.parents:first-child > div.person::after{border-left:none;}
+
+
+
+
+
+
+/*We will use ::before and ::after to draw the connectors*/
+
+#teamchart-div.circle #first li div.person::before, #teamchart-div.circle #first  li div.person::after{
+content: '' ;
+position: absolute ;
+bottom: 0 ;
+top: auto;
+right: 50% ;
+border-bottom: 3px solid #EDEDED ;
+width: 50% ;
+border-top:none;
+height: 15px ;
+}
+
+#teamchart-div.circle #first li div.person::after{
+	right: auto; left: 50%;
+	
+}
+
+
+#teamchart-div.circle  li div.person::before, #teamchart-div.circle  li div.person::after{
+content: '';
+position: absolute;
+top:-20px;
+right: 50%;
+border-top: 3px solid #EDEDED;
+width: 100%;
+height: 20px;
+}
+#teamchart-div.circle  li div.person::after{
+	right: auto; left: 50%;
+	border-left: 3px solid #EDEDED;
+}
+
+
+
+
+
+
+/*
+#teamchart-div.circle  li.bloc::before, #teamchart-div.circle  li.bloc::after,#teamchart-div.circle ul ul.bloc::before{
+	display: none;
+}
+*/
+
+
+
+/*Remove space from the top of single children*/
+#teamchart-div.circle  li:only-child div.person{ padding-top: 0px;}
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+#teamchart-div.circle li li:only-child div.person::before {
+	display: block;
+	 right: 48%;
+}
+
+/*Remove space from the top of single children*/
+#teamchart-div.circle li li:only-child div.person{ padding-top: 0px;}
+
+
+/*Remove left connector from first child and 
+right connector from last child*/
+#teamchart-div.circle  li:first-child > div.person::before,
+#teamchart-div.circle  li:last-child > .person::after{
+	border: 0 none;
+}
+
+
+/*Adding back the vertical connector to the last nodes*/
+#teamchart-div.circle  li:last-child > div.person::before{
+	border-right: 3px solid #EDEDED;
+}
+
+
+
+
+
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+#teamchart-div.circle #first li div.person:only-child::after, #teamchart-div.circle #first li div.person:only-child::before {
+	display: none;
+}
+
+/*Remove space from the top of single children*/
+#teamchart-div.circle #first li div.person:only-child{ padding-top: 0px;}
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+#teamchart-div.circle #first li li div.person:only-child::before {
+	display: block;
+	 right: 48%;
+}
+
+/*Remove space from the top of single children*/
+#teamchart-div.circle #first li li div.person:only-child{ padding-top: 20px;}
+
+
+/*Remove left connector from first child and 
+right connector from last child*/
+#teamchart-div.circle #first li div.person:first-child::before, #teamchart-div.circle #first li div.person:last-child::after{
+	border: 0 none;
+}
+
+
+/*Adding back the vertical connector to the last nodes*/
+#teamchart-div.circle li.col-0 > div.person::before{
+border:0 none !important	;
+}
+
+
+
+
+
+/*Time to add downward connectors from parents*/
+#teamchart-div.circle ul ul#first::before{
+	content: none;
+	position: absolute;top:auto !important; bottom: 0 !important; left: 50%;
+	border-left: 3px solid #EDEDED;
+	width: 0; height: 20px;
+}
+
+
+#teamchart-div.circle ul ul::before{
+	content: '';
+	position: absolute; top: 0; left: 50%;
+	border-left: 3px solid #EDEDED;
+	width: 0; height: 20px;
+}
+
+
+/*
+	Clear sublevel
+*/
+
+#teamchart-div.circle ul#first ~ ul > * li {padding:20px 1%;}
+#teamchart-div.circle ul#first ~ ul > * li  .person .text:before{content:none;}
+#teamchart-div.circle ul#first ~ ul > * li  .person .text:after{content:none;}
+#teamchart-div.circle ul#first ~ ul > * li  p{overflow-wrap: break-word; word-wrap: break-word;   word-break: break-all;}
+
+#teamchart-div.circle .col-2 {max-width:48%;}
+#teamchart-div.circle .col-3 {max-width:30%;}
+#teamchart-div.circle .col-4 {max-width:23%;}
+#teamchart-div.circle .col-5 {max-width:18%;}
+
+#teamchart-div.circle ul li li > * li{padding:20px 1%;}
+#teamchart-div.circle ul li li > * .person .text:before , #teamchart-div.circle li li >  * .person .text:after{
+content:none;
+}
+
+#teamchart-div.circle ul li li >  * li p {overflow-wrap: break-word; word-wrap: break-word;   word-break: break-all;}
+
+/**
+ * Framemode	
+ */
+
+#teamchart-div.circle.framemode  li div.person::after{
+	width:100%;
+}
+#teamchart-div.circle li:last-child > .person::after {
+	border-top:none;z-index: -1;
+}
+
+
+#teamchart-div.circle.framemode #chart {zoom:1;}
+#teamchart-div.circle.framemode {overflow:auto;width:100%;height:460px;border: 1px solid #d0cdc0; position:relative;cursor:move;}
+
+#teamchart-div.circle.framemode .col-2,
+#teamchart-div.circle.framemode .col-3,
+#teamchart-div.circle.framemode .col-4 {max-width:none !important;}
+
+#teamchart-div.circle.framemode .person {width:140px;position: relative;z-index: 1;}
+#teamchart-div.circle.framemode ul {display:table;position: relative;}
+#teamchart-div.circle.framemode li {display:table-cell;position: relative;}
+
+/*  UI kit   */
+ #uiteamchart {text-align:right;margin-bottom:-40px;margin-right:10px;position:relative;z-index:10;}
+ #uiteamchart a {
+	border: 1px solid #aaa;
+display: inline-block;
+width: 32px;
+font-family: Arial;
+height: 32px;
+background: #eee;
+
+border-radius: 3px 0 0 3px;
+text-align: center;
+font-weight: 600;
+font-size: 18px;
+line-height: 29px;
+color: #555;
+}
+ #uiteamchart a:hover {
+	color: #333;
+	box-shadow: inset 3px 0px 10px #aaa;
+	text-decoration:none;
+	background: #ccc;
+box-shadow: inset 0px 0px 10px #888;
+border: 1px solid #888;
+}
+#uiteamchart a.zoomout {
+	border-radius: 0 3px 3px 0;
+	border-left:none;
+	
+}
+
+
+/*
+
+RESPONSIVE
+
+*/
+
+@media (max-width:600px){
+#teamchart-div.circle ul li li > * li .Job,
+#teamchart-div.circle ul li li > * li .name,
+#teamchart-div.circle ul:not(.first) > ul:not(.first) li li .Job,
+#teamchart-div.circle ul:not(.first) > ul:not(.first) li li .name{
+display:none !important;
+}
+#teamchart-div.circle li li li.col-2 .image,#teamchart-div.circle li li.col-4 .image ,#teamchart-div.circle li li li.col-3 .image{
+height:55px;
+}
+
+
+#teamchart-div.circle.framemode ul li li > * li .name,
+#teamchart-div.circle.framemode ul:not(.first) > ul:not(.first) li li .Job,
+#teamchart-div.circle.framemode ul:not(.first) > ul:not(.first) li li .name{
+display:table !important;
+}
+#teamchart-div.circle.framemode ul li li > * li .Job {
+	display:block !important;
+}
+#teamchart-div.circle.framemode li li li.col-2 .image,
+#teamchart-div.circle.framemode li li.col-4 .image ,
+#teamchart-div.circle.framemode li li li.col-3 .image{
+height:auto !important;
+}
+
+}
+
+/*
+
+LIGHTBOX
+
+*/
+
+
+.circle .fancybox-inner .person-fancybox .photo {width:40%;overflow:hidden;float:left;height: 250px;
+padding: 3%;
+position:relative;z-index:10;}
+.circle .fancybox-inner .person-fancybox .photo img {width:100%;}
+.circle .fancybox-inner .person-fancybox .text {float:left;width:58%;margin-left:2%;padding: 2%;}
+.circle .fancybox-inner .person-fancybox .text h2 {color:#566b56;font-weight:bold;font-size:20px;margin:2px 0;padding:0;}
+.circle .fancybox-inner .person-fancybox .text h4 {color:#869183;font-weight:300;margin:0 0 20px 0;padding:0;font-size:14px;}
+.circle .fancybox-inner .person-fancybox .text p {color: #869183;
+font-weight: 300;
+font-size: 13px;
+}
+.circle .fancybox-inner .person-fancybox .teamchartdescription {  height: 135px; overflow-y: auto;}
+.circle .fancybox-inner .person-fancybox .teamchartdescription p {
+	margin: 0;
+}
+.circle .fancybox-skin {
+
+}
+
+
+.circle a.fancybox-item.fancybox-close {
+width: 23px;
+height: 23px;
+background: url("../images/circle-theme/close-normal.png");
+top: 10px;
+right: 10px;	
+transition:all 0.3s linear;
+-moz-transition:all 0.3s linear;
+
+-webkit-transition:all 0.3s linear;
+}
+.circle a.fancybox-item.fancybox-close:hover {background: url("../images/circle-theme/close-hover.png");}
+
+
+/*//Fix conflict css*/
+#teamchart-div ul li:before{
+	content: none !important;
+}

@@ -1,0 +1,328 @@
+@font-face {
+    font-family: 'robotobold';
+    src: url('../css/fonts/roboto-bold.eot');
+    src: url('../css/fonts/roboto-bold.eot?#iefix') format('embedded-opentype'), url('../css/fonts/roboto-bold.woff2') format('woff2'), url('../css/fonts/roboto-bold.woff') format('woff'), url('../css/fonts/roboto-bold.ttf') format('truetype'), url('../css/fonts/roboto-bold.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../css/fonts/Roboto-Medium.eot');
+    src: url('../css/fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Roboto-Medium.woff') format('woff'), url('../css/fonts/Roboto-Medium.ttf') format('truetype'), url('../css/fonts/Roboto-Medium.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../css/fonts/Roboto-Regular.eot');
+    src: url('../css/fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Roboto-Regular.woff') format('woff'), url('../css/fonts/Roboto-Regular.ttf') format('truetype'), url('../css/fonts/Roboto-Regular.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wpfd-loading {
+    width: 65px;
+    height: 65px;
+    margin: 30px auto;
+}
+
+#wpfd-loading-wrap,
+#wpfd-loading-tree-wrap {
+    position: fixed;
+    left: -99999px;
+}
+
+.wpfd-loading-tree-bg {
+    background: url(../images/theme/spinner.gif) left 0 no-repeat !important;
+    background-size: 18px !important;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 0 0 -20px;
+}
+
+.wpfd-content {
+    font-family: 'robotomedium';
+    font-weight: normal;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: #eeeeee;
+}
+
+.wpfd-content a:focus {
+    outline: none;
+}
+
+/* pagination */
+
+.wpfd-pagination .page-numbers {
+    margin: 6px;
+}
+
+.wpfd-pagination a.page-numbers {
+    cursor: pointer;
+}
+
+/* breadcrumbs */
+
+.wpfd-content .breadcrumbs {
+    padding: 8px 15px !important;
+    margin: 0 0 0 0;
+    list-style: outside none none;
+    background: #fafafa;
+    font-family: "robotomedium";
+    font-size: 24px;
+    color: #888;
+}
+
+.wpfd-content .breadcrumbs > li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.wpfd-content .breadcrumbs a {
+    color: #888
+}
+
+.wpfd-content .breadcrumbs a:hover {
+    -webkit-box-shadow: 0 1px 3px #888888;
+    -moz-box-shadow: 0 1px 3px #888888;
+    box-shadow: 0 1px 3px #888888;
+}
+
+.wpfd-content .breadcrumbs > li > .divider {
+    padding: 0 5px;
+}
+
+.wpfd-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* left folder tree */
+
+.wpfd-foldertree {
+    float: left;
+    padding: 0 10px 0 0;
+    margin: 0;
+    min-height: 250px;
+    overflow-x: hidden;
+    border-right: 1px solid #dddddd;
+}
+
+.wpfd-foldertree ul.jaofiletree:first-child {
+    margin-left: -10px !important;
+
+}
+
+/* main area */
+
+.wpfd-content .wpfdcategory {
+    font-family: "robotobold";
+    font-size: 14px;
+    line-height: 1.5;
+    color: #8f8f8f;
+    box-sizing: border-box;
+    width: 175px;
+    height: 37px;
+    padding: 10px;
+    margin: 10px 10px 0 0;
+    text-decoration: none;
+    border: none;
+    background: #fff;
+    display: inline-block;
+    /* IE is so silly */
+    max-width: 175px;
+}
+
+.wpfd-content .wpfdcategory > span {
+    display: inline-block;
+    width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: -3px;
+}
+
+.wpfd-content .wpfdcategory:hover {
+    -webkit-box-shadow: 0 1px 3px #888888;
+    -moz-box-shadow: 0 1px 3px #888888;
+    box-shadow: 0 1px 3px #888888;
+}
+
+.wpfd-content .wpfdcategory .wpfd-folder {
+    font-size: 18px;
+    float: right;
+    vertical-align: middle;
+    font-family: Material-Design-Iconic-Font;
+}
+
+.wpfd-content .downloadlink {
+    background-color: #76bc58;
+    border-color: #76bc58;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    display: block;
+    width: 100%;
+    height: 32px;
+    margin-bottom: 5px;
+    line-height: 22px;
+}
+
+.wpfd-content i.wpfd-download {
+    font-size: 16px;
+    vertical-align: middle;
+    text-align: right;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.wpfd-content .openlink {
+    background-color: #fafafa;
+    border-color: #dadada;
+    border-radius: 15px;
+    color: #8f8f8f;
+    font-size: 13px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 32px;
+    line-height: 22px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.wpfd-content i.wpfd-preview {
+    font-size: 16px;
+    vertical-align: middle;
+    text-align: right;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+/* other */
+
+.wpfd-content .backcategory {
+    float: right;
+    width: auto;
+    height: auto;
+    background: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    font-weight: normal;
+    box-shadow: none;
+    position: absolute;
+    top: -5px;
+    right: 10px;
+}
+
+.wpfd-content .backcategory:hover {
+    box-shadow: none;
+}
+
+.wpfd-content .backcategory .zmdi-chevron-left {
+    vertical-align: middle;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+#wpfd-dropblock-close {
+    position: absolute;
+    right: -30px;
+}
+
+.dropblock #wpfd-dropblock-close .dashicons {
+    width: 30px;
+    height: 29px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+@media (max-width: 640px) {
+    /* Close button inside - NOT USE YET */
+    #wpfd-dropblock-close {
+        position: absolute;
+        right: 0;
+        z-index: 999999999999999999999999;
+        top: 0;
+        border: 0px solid rgba(0, 0, 0, 0.5);
+    }
+
+    .dropblock #wpfd-dropblock-close .dashicons {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        vertical-align: middle;
+        color: #FFFFFF;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .dashicons, .dashicons-before::before {
+        font-size: 30px !important;
+    }
+
+    /*i.wpfd-download,*/
+    /*i.wpfd-preview,*/
+    .vjs-default-skin .vjs-big-play-button {
+        display: none !important;
+    }
+}
+
+/* Human theme fix */
+
+.entry h1 span,
+.entry h2 span,
+.entry h3 span,
+.entry h4 span,
+.entry h5 span,
+.entry h6 span {
+    color: inherit;
+}
+
+.wpfd-content ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+.wpfd-content ::-webkit-scrollbar:hover {
+    cursor: pointer;
+}
+
+/* Track */
+.wpfd-content ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+.wpfd-content ::-webkit-scrollbar-thumb {
+    background: #888;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+/* Handle on hover */
+.wpfd-content ::-webkit-scrollbar-thumb:hover {
+    background: #4285f4;
+}
+
+.wpfd-content .wpfd-flex-container {
+    display: flex;
+    width: 100%
+}

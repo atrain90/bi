@@ -1,0 +1,496 @@
+/**
+ * WP File Download
+ *
+ * @package WP File Download
+ * @author Joomunited
+ * @version 1.0
+ */
+
+.wpfd-content-default {
+}
+
+.wpfd-content-default h2 {
+    padding: 10px 0 0 0;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-family: "robotoregular";
+    color: #595959
+}
+
+.wpfd-content-default a {
+    text-decoration: none !important;
+    border-bottom: 0;
+    box-shadow: none;
+    color: #444;
+    transition: all 0.2s ease;
+}
+
+.wpfd-content-default a:hover {
+    box-shadow: 1px 1px 12px #ccc;
+}
+
+.wpfd-content-default .wpfd_list {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.wpfd-content-default .wpfd_list .file {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex: 0 1 0;
+    -ms-flex: 0 1 0;
+    flex: 0 1 0;
+    background: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    min-width: 400px;
+}
+
+.wpfd-content-default .file {
+    min-height: 70px;
+    clear: both;
+}
+
+.wpfd-content-default .filecontent > div.ext {
+    height: 80px;
+    width: 50px;
+    margin-right: 15px;
+    float: left;
+    background: url(../../../assets/images/theme/neutral.png) center center transparent no-repeat;
+    color: #fff;
+    position: relative;
+}
+
+.wpfd-content-default .filecontent > div > img {
+    width: 50px;
+    margin-right: 15px;
+    float: left;
+    position: relative;
+}
+
+.wpfd-content-default .filecontent > div.ext.ai {
+    background-image: url(../../../assets/images/theme/ai.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.avi {
+    background-image: url(../../../assets/images/theme/avi.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.psd {
+    background-image: url(../../../assets/images/theme/psd.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.css {
+    background-image: url(../../../assets/images/theme/css.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.csv {
+    background-image: url(../../../assets/images/theme/csv.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.dll {
+    background-image: url(../../../assets/images/theme/dll.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.doc {
+    background-image: url(../../../assets/images/theme/doc.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.docx {
+    background-image: url(../../../assets/images/theme/docx.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.fla {
+    background-image: url(../../../assets/images/theme/fla.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.flac {
+    background-image: url(../../../assets/images/theme/flac.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.flv {
+    background-image: url(../../../assets/images/theme/flv.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.gif {
+    background-image: url(../../../assets/images/theme/gif.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.html {
+    background-image: url(../../../assets/images/theme/html.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.iso {
+    background-image: url(../../../assets/images/theme/iso.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.jpg {
+    background-image: url(../../../assets/images/theme/jpg.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.gif {
+    background-image: url(../../../assets/images/theme/gif.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.mov {
+    background-image: url(../../../assets/images/theme/mov.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.mpg {
+    background-image: url(../../../assets/images/theme/mpg.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.mpeg {
+    background-image: url(../../../assets/images/theme/mpeg.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.ogg {
+    background-image: url(../../../assets/images/theme/ogg.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.mp3 {
+    background-image: url(../../../assets/images/theme/mp3.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.mp4 {
+    background-image: url(../../../assets/images/theme/mp4.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.mkv {
+    background-image: url(../../../assets/images/theme/mkv.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.swf {
+    background-image: url(../../../assets/images/theme/swf.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.pdf {
+    background-image: url(../../../assets/images/theme/pdf.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.php {
+    background-image: url(../../../assets/images/theme/php.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.png {
+    background-image: url(../../../assets/images/theme/png.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.ppt {
+    background-image: url(../../../assets/images/theme/ppt.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.pptx {
+    background-image: url(../../../assets/images/theme/ppt.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.psd {
+    background-image: url(../../../assets/images/theme/psd.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.raw {
+    background-image: url(../../../assets/images/theme/raw.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.sql {
+    background-image: url(../../../assets/images/theme/sql.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.svg {
+    background-image: url(../../../assets/images/theme/svg.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.txt {
+    background-image: url(../../../assets/images/theme/txt.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.wav {
+    background-image: url(../../../assets/images/theme/wav.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.wmv {
+    background-image: url(../../../assets/images/theme/wmv.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.xls {
+    background-image: url(../../../assets/images/theme/xls.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.xlsx {
+    background-image: url(../../../assets/images/theme/xlsx.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.xml {
+    background-image: url(../../../assets/images/theme/xml.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.zip {
+    background-image: url(../../../assets/images/theme/zip.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.rar {
+    background-image: url(../../../assets/images/theme/rar.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext.exe {
+    background-image: url(../../../assets/images/theme/exe.png);
+    color: transparent;
+}
+
+.wpfd-content-default .filecontent > div.ext .txt {
+    position: absolute;
+    top: 48px;
+    left: 7px;
+    display: block;
+    width: 35px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.wpfd_list .filecontent {
+    margin-left: 0;
+    /*min-width: 225px;*/
+    /*max-width: 320px;*/
+    min-width: 60%;
+    max-width: 60%;
+}
+
+.wpfd-content-default .file .file-right {
+    float: right;
+    margin: 10px 5px 0 10px;
+    text-align: center;
+    min-width: 30%;
+}
+
+.wpfd-content-default .file .openlink img {
+    margin: auto;
+}
+
+.wpfd-content-default .file .downloadlink:hover {
+    box-shadow: 1px 1px 12px #ccc;
+}
+
+.wpfd-content-default .file h3 {
+    font-family: "robotobold";
+    font-size: 13px;
+    padding-top: 0;
+    margin: 8px 0 !important;
+    clear: none;
+    word-wrap: normal;
+    color: #444;
+    line-height: 1em;
+    text-transform: none;
+}
+
+.wpfd-content-default .file .file-xinfo {
+    margin-left: 65px;
+    font-size: 11px;
+    text-transform: none;
+    color: #888;
+}
+
+.wpfd-content-default .file .filecontent {
+    font-size: 0.8em;
+    line-height: 1.2;
+}
+
+.wpfd-foldertree-default {
+    width: 28%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.wpfd-container-default {
+    box-sizing: border-box;
+    padding: 0 10px 10px 5px;
+    width: 100%;
+    min-height: 50px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+}
+
+.wpfd-container-default .wpfd-categories h2 {
+    padding-left: 10px;
+}
+
+.wpfd-container-default.with_foldertree {
+    float: left;
+    width: 70%;
+    padding: 0 10px 0 0;
+    margin: 0;
+}
+
+/* single file */
+
+.wpfd-single-file {
+    display: inline-block;
+}
+
+.wpfd-single-file .wpfd-file-link {
+    background: #444 url("../../../assets/images/theme/download.png") no-repeat scroll 5px center;
+    border: medium none;
+    border-radius: 0;
+    transition: all 0.2s ease 0s;
+    float: left;
+    margin: 7px;
+    padding: 10px 20px 10px 60px;
+    color: #FFF;
+}
+
+.wpfd-single-file .wpfd-file-link:hover {
+    background: #888 url("../../../assets/images/theme/download.png") no-repeat scroll 5px center;
+    box-shadow: 1px 1px 12px #ccc;
+}
+
+.wpfd-single-file .wpfd-file-link a {
+    color: #FFF;
+    box-shadow: none;
+    text-decoration: none;
+    box-shadow: none;
+    text-shadow: none;
+    border: none;
+    display: inline-block;
+}
+
+.wpfd-single-file .wpfd-file-link a:hover {
+    color: #FFF;
+}
+
+.wpfd-single-file .droptitle {
+    color: #fff;
+    font-weight: bold;
+}
+
+.wpfd-single-file .wpfd-file-link span.dropinfos {
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.wpfd-content-default .default-download-category {
+    background-color: #eeeeee;
+    border-color: #dadada;
+    border-radius: 15px;
+    color: #444 !important;
+    font-size: 13px;
+    margin: 6px 5px;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 32px;
+    line-height: 22px;
+    float: right;
+}
+
+.wpfd-content-default .default-download-category.display-download-category {
+    display: none;
+}
+
+.wpfd-content-default .default-download-category .wpfd-download-category {
+    margin-left: 3px;
+    vertical-align: text-bottom;
+    font-size: 20px;
+}
+
+.wpfd-content-default .default-download-category:hover {
+    cursor: pointer;
+}
+
+.wpfd-content .head-category-default {
+    padding: 8px 15px !important;
+    margin: 0 0 0 0;
+    list-style: outside none none;
+    background: #fafafa;
+    font-family: "robotomedium";
+    font-size: 24px;
+    color: #888;
+}
+
+.wpfd-content .head-category-default > li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+@media (max-width: 640px) {
+    ul.jaofiletree li {
+        padding-left: 10px !important;
+    }
+
+    .wpfd-foldertree-default {
+        width: 100% !important;
+        margin-bottom: 15px !important;
+    }
+
+    .wpfd-container-default.with_foldertree {
+        width: 100% !important;
+    }
+
+    .foldertree-hide {
+        display: none;
+    }
+
+    .wpfd-content-default .wpfd_list .file {
+        -webkit-flex: 0 !important;
+        -ms-flex: 0 !important;
+        flex: 0 !important;
+    }
+
+    .wpfd-content-default .wpfd_list {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}

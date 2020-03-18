@@ -1,0 +1,677 @@
+/** 
+ * Wpfd
+ * 
+ * We developed this code with our hearts and passion.
+ * We hope you found it useful, easy to understand and to customize.
+ * Otherwise, please feel free to contact us at contact@joomunited.com *
+ * @package WP File Download
+ * @copyright Copyright (C) 2013 JoomUnited (http://www.joomunited.com). All rights reserved.
+ * @license GNU General Public License version 2 or later; http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+.wpfd-content-ggd a,
+.wpfd-content-ggd a:hover {
+    text-decoration: none !important;
+}
+
+.wpfd-content-ggd a:focus {
+    outline: none;
+}
+
+.wpfd-content-ggd a.wpfd-file-link {
+    display: inline-block;
+    color: #666 !important;
+    text-align: center;
+    word-wrap: break-word;
+    border-bottom: 0;
+    box-shadow: none;
+}
+
+.wpfd-content-ggd h2 {
+    padding: 10px 0 0 0;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-family: "robotoregular";
+    color: #595959;
+}
+
+.wpfd-content-ggd .wpfd-file-link {
+    width: 175px;
+    vertical-align: top;
+    box-sizing: border-box;
+    background: #fff;
+    margin: 10px 10px 10px 10px;
+}
+
+.wpfd-content-ggd .wpfd-file-link:hover {
+    background: #fff;
+}
+
+.wpfd-content-ggd .wpfd-file-link .dropblock {
+    border-bottom: 1px solid #ccc;
+}
+
+.wpfd-content-ggd .wpfd-file-link .droptitle {
+    padding: 5px 5px 5px 20px;
+    text-align: left;
+    font-size: 13px;
+    text-transform: none;
+    text-overflow: ellipsis;
+}
+
+a.wpfdcategory.catlink div.droptitle {
+    font-size: 0.9em;
+    width: 115px;
+    text-overflow: ellipsis;
+}
+
+/*  ggd box  */
+
+#wpfd-ggd-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: transparent url(../../../assets/images/theme/boxbg.png) top left repeat;
+    color: #FFF;
+    font-family: "robotomedium";
+}
+
+#wpfd-ggd-box a {
+    text-decoration: none;
+}
+
+#wpfd-ggd-box .filecontent a {
+    color: #444;
+    font-size: 16px;
+    text-transform: none;
+}
+
+#wpfd-ggd-box div.wpfd-extra {
+    line-height: 18px;
+    font-size: 13px;
+    color: #888;
+}
+
+#wpfd-ggd-box .wpfd-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    background: url(../../../assets/images/theme/close.png) center center no-repeat transparent;
+    z-index: 9999;
+}
+
+#wpfd-ggd-box .dropblock {
+    min-width: 400px;
+    min-height: 150px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -100px;
+    background: #FFF;
+    color: #8d8d8d;
+    padding: 15px 10px;
+}
+
+#wpfd-ggd-box .dropblock .filecontent {
+    float: left;
+    min-width: 350px;
+}
+
+#wpfd-ggd-box .dropblock div.ext {
+    background-position: top left;
+    color: #fff;
+    float: left;
+    width: 60px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.dropblock div.ext {
+    height: 114px;
+    color: #fff;
+    background: transparent url(../../../assets/images/theme/neutral.png) no-repeat center center;
+    width: 114px;
+    display: inline-block;
+    position: relative;
+}
+
+.dropblock div.icon-custom {
+    height: 114px;
+    color: #fff;
+    max-width: 114px;
+    display: inline-block;
+    position: relative;
+}
+
+.dropblock div.icon-custom img {
+    width: 50px;
+    position: relative;
+    margin-top: 50%;
+}
+
+.wpfd-content-ggd .wpfdcategory .dropblock div.ext {
+    background-image: url(../../../assets/images/theme/folder.png);
+    color: transparent;
+}
+
+.wpfd-content-ggd .wpfdcategory .dropblock div.ext.back {
+    background-image: url(../../../assets/images/theme/folder-back.png);
+    color: transparent;
+}
+
+.dropblock div.ext.fla {
+    background-image: url(../../../assets/images/theme/fla.png);
+    color: transparent;
+}
+
+.dropblock div.ext.mpg {
+    background-image: url(../../../assets/images/theme/mpg.png);
+    color: transparent;
+}
+
+.dropblock div.ext.avi {
+    background-image: url(../../../assets/images/theme/avi.png);
+    color: transparent;
+}
+
+.dropblock div.ext.svg {
+    background-image: url(../../../assets/images/theme/svg.png);
+    color: transparent;
+}
+
+.dropblock div.ext.mp4 {
+    background-image: url(../../../assets/images/theme/mp4.png);
+    color: transparent;
+}
+
+.dropblock div.ext.xls {
+    background-image: url(../../../assets/images/theme/xls.png);
+    color: transparent;
+}
+
+.dropblock div.ext.aac {
+    background-image: url(../../../assets/images/theme/aac.png);
+    color: transparent;
+}
+
+.dropblock div.ext.txt {
+    background-image: url(../../../assets/images/theme/txt.png);
+    color: transparent;
+}
+
+.dropblock div.ext.exe {
+    background-image: url(../../../assets/images/theme/exe.png);
+    color: transparent;
+}
+
+.dropblock div.ext.otf {
+    background-image: url(../../../assets/images/theme/otf.png);
+    color: transparent;
+}
+
+.dropblock div.ext.docx {
+    background-image: url(../../../assets/images/theme/docx.png);
+    color: transparent;
+}
+
+.dropblock div.ext.cfg {
+    background-image: url(../../../assets/images/theme/cfg.png);
+    color: transparent;
+}
+
+.dropblock div.ext.com {
+    background-image: url(../../../assets/images/theme/com.png);
+    color: transparent;
+}
+
+.dropblock div.ext.ra {
+    background-image: url(../../../assets/images/theme/ra.png);
+    color: transparent;
+}
+
+.dropblock div.ext.svgz {
+    background-image: url(../../../assets/images/theme/svgz.png);
+    color: transparent;
+}
+
+.dropblock div.ext.bmp {
+    background-image: url(../../../assets/images/theme/bmp.png);
+    color: transparent;
+}
+
+.dropblock div.ext.eps {
+    background-image: url(../../../assets/images/theme/eps.png);
+    color: transparent;
+}
+
+.dropblock div.ext.mkv {
+    background-image: url(../../../assets/images/theme/mkv.png);
+    color: transparent;
+}
+
+.dropblock div.ext.pptx {
+    background-image: url(../../../assets/images/theme/pptx.png);
+    color: transparent;
+}
+
+.dropblock div.ext.rm {
+    background-image: url(../../../assets/images/theme/rm.png);
+    color: transparent;
+}
+
+.dropblock div.ext.jpg {
+    background-image: url(../../../assets/images/theme/jpg.png);
+    color: transparent;
+}
+
+.dropblock div.ext.swf {
+    background-image: url(../../../assets/images/theme/swf.png);
+    color: transparent;
+}
+
+.dropblock div.ext.midi {
+    background-image: url(../../../assets/images/theme/midi.png);
+    color: transparent;
+}
+
+.dropblock div.ext.cdr {
+    background-image: url(../../../assets/images/theme/cdr.png);
+    color: transparent;
+}
+
+.dropblock div.ext.asf {
+    background-image: url(../../../assets/images/theme/asf.png);
+    color: transparent;
+}
+
+.dropblock div.ext.ico {
+    background-image: url(../../../assets/images/theme/ico.png);
+    color: transparent;
+}
+
+.dropblock div.ext.ttf {
+    background-image: url(../../../assets/images/theme/ttf.png);
+    color: transparent;
+}
+
+.dropblock div.ext.wmv {
+    background-image: url(../../../assets/images/theme/wmv.png);
+    color: transparent;
+}
+
+.dropblock div.ext.djv {
+    background-image: url(../../../assets/images/theme/djv.png);
+    color: transparent;
+}
+
+.dropblock div.ext.ini {
+    background-image: url(../../../assets/images/theme/ini.png);
+    color: transparent;
+}
+
+.dropblock div.ext.dll {
+    background-image: url(../../../assets/images/theme/dll.png);
+    color: transparent;
+}
+
+.dropblock div.ext.xml {
+    background-image: url(../../../assets/images/theme/xml.png);
+    color: transparent;
+}
+
+.dropblock div.ext.tga {
+    background-image: url(../../../assets/images/theme/tga.png);
+    color: transparent;
+}
+
+.dropblock div.ext.wma {
+    background-image: url(../../../assets/images/theme/wma.png);
+    color: transparent;
+}
+
+.dropblock div.ext.icns {
+    background-image: url(../../../assets/images/theme/icns.png);
+    color: transparent;
+}
+
+.dropblock div.ext.zip {
+    background-image: url(../../../assets/images/theme/zip.png);
+    color: transparent;
+}
+
+.dropblock div.ext.psd {
+    background-image: url(../../../assets/images/theme/psd.png);
+    color: transparent;
+}
+
+.dropblock div.ext.xlsx {
+    background-image: url(../../../assets/images/theme/xlsx.png);
+    color: transparent;
+}
+
+.dropblock div.ext.mp3 {
+    background-image: url(../../../assets/images/theme/mp3.png);
+    color: transparent;
+}
+
+.dropblock div.ext.raw {
+    background-image: url(../../../assets/images/theme/raw.png);
+    color: transparent;
+}
+
+.dropblock div.ext.ai {
+    background-image: url(../../../assets/images/theme/ai.png);
+    color: transparent;
+}
+
+.dropblock div.ext.ogg {
+    background-image: url(../../../assets/images/theme/ogg.png);
+    color: transparent;
+}
+
+.dropblock div.ext.iso {
+    background-image: url(../../../assets/images/theme/iso.png);
+    color: transparent;
+}
+
+.dropblock div.ext.sys {
+    background-image: url(../../../assets/images/theme/sys.png);
+    color: transparent;
+}
+
+.dropblock div.ext.mov {
+    background-image: url(../../../assets/images/theme/mov.png);
+    color: transparent;
+}
+
+.dropblock div.ext.gif {
+    background-image: url(../../../assets/images/theme/gif.png);
+    color: transparent;
+}
+
+.dropblock div.ext.csv {
+    background-image: url(../../../assets/images/theme/csv.png);
+    color: transparent;
+}
+
+.dropblock div.ext.bat {
+    background-image: url(../../../assets/images/theme/bat.png);
+    color: transparent;
+}
+
+.dropblock div.ext.tiff {
+    background-image: url(../../../assets/images/theme/tiff.png);
+    color: transparent;
+}
+
+.dropblock div.ext.chm {
+    background-image: url(../../../assets/images/theme/chm.png);
+    color: transparent;
+}
+
+.dropblock div.ext.wav {
+    background-image: url(../../../assets/images/theme/wav.png);
+    color: transparent;
+}
+
+.dropblock div.ext.png {
+    background-image: url(../../../assets/images/theme/png.png);
+    color: transparent;
+}
+
+.dropblock div.ext.flac {
+    background-image: url(../../../assets/images/theme/flac.png);
+    color: transparent;
+}
+
+.dropblock div.ext.icl {
+    background-image: url(../../../assets/images/theme/icl.png);
+    color: transparent;
+}
+
+.dropblock div.ext.ppt {
+    background-image: url(../../../assets/images/theme/ppt.png);
+    color: transparent;
+}
+
+.dropblock div.ext.pdf {
+    background-image: url(../../../assets/images/theme/pdf.png);
+    color: transparent;
+}
+
+.dropblock div.ext.html {
+    background-image: url(../../../assets/images/theme/html.png);
+    color: transparent;
+}
+
+.dropblock div.ext.css {
+    background-image: url(../../../assets/images/theme/css.png);
+    color: transparent;
+}
+
+.dropblock div.ext.ogm {
+    background-image: url(../../../assets/images/theme/ogm.png);
+    color: transparent;
+}
+
+.dropblock div.ext.rtf {
+    background-image: url(../../../assets/images/theme/rtf.png);
+    color: transparent;
+}
+
+.dropblock div.ext.rar {
+    background-image: url(../../../assets/images/theme/rar.png);
+    color: transparent;
+}
+
+.dropblock div.ext.log {
+    background-image: url(../../../assets/images/theme/log.png);
+    color: transparent;
+}
+
+.dropblock div.ext.ape {
+    background-image: url(../../../assets/images/theme/ape.png);
+    color: transparent;
+}
+
+.dropblock div.ext.doc {
+    background-image: url(../../../assets/images/theme/doc.png);
+    color: transparent;
+}
+
+.dropblock div.ext .txt {
+    position: absolute;
+    top: 48px;
+    left: 7px;
+    display: none;
+    width: 35px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.dropblock .droptitle {
+    text-align: center;
+}
+
+#wpfd-ggd-box .dropblock h3 {
+    padding: 0 15px;
+    margin: 0;
+    word-wrap: break-word;
+    clear: none;
+}
+
+#wpfd-ggd-box .extra-downloadlink {
+    background: none;
+    padding: 0;
+    margin: 5px 0 0 0;
+    height: 30px;
+    text-align: right;
+    display: inline-block;
+    float: left;
+    width: 130px
+}
+
+#wpfd-ggd-box .extra-downloadlink a {
+    background-color: #76bc58;
+    border-color: #76bc58;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 13px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: block;
+    width: 120px;
+    height: 32px;
+    float: right;
+    transition: all 0.2s ease;
+}
+
+#wpfd-ggd-box .extra-downloadlink a:hover, #wpfd-ggd-box .dropblock .viewerlink .openlink:hover {
+    box-shadow: 1px 1px 12px #ccc;
+}
+
+#wpfd-ggd-box .dropblock .viewerlink {
+    text-align: right;
+    display: inline-block;
+    height: 30px;
+    padding: 0;
+    margin: 10px 0 0 10px;
+}
+
+#wpfd-ggd-box .dropblock .viewerlink .openlink {
+    background-color: #fafafa;
+    border-color: #dadada;
+    border-radius: 15px;
+    color: #8f8f8f;
+    font-size: 13px;
+    margin-top: 10px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: block;
+    width: 120px;
+    height: 32px;
+    transition: all 0.2s ease;
+}
+
+.wpfd-foldertree-ggd {
+    float: left;
+    width: 28%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.wpfd-foldertree-ggd > .jaofiletree {
+    margin-top: 20px !important;
+}
+
+.wpfd-container-ggd {
+    box-sizing: border-box;
+    padding: 0 10px 10px 5px;
+    width: 100%;
+    min-height: 50px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+}
+
+.wpfd-container-ggd.with_foldertree {
+    float: left;
+    width: 70%;
+    padding: 0 10px 0 0;
+    margin: 0;
+}
+
+.wpfd-container-ggd .wpfd-categories h2 {
+    padding-left: 10px;
+}
+
+.wpfd-content-ggd .ggd-download-category {
+    display: inline-block;
+    background-color: #eeeeee;
+    border-color: #dadada;
+    border-radius: 14px;
+    color: #444 !important;
+    font-size: 13px;
+    padding: 5px 20px;
+    margin: 6px 5px;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    height: 32px;
+    line-height: 22px;
+    float: right;
+}
+
+.wpfd-content-ggd .ggd-download-category .wpfd-download-category {
+    margin-left: 3px;
+    vertical-align: text-bottom;
+    font-size: 20px;
+}
+
+.wpfd-content-ggd .ggd-download-category:hover {
+    cursor: pointer;
+}
+
+.wpfd-content-ggd .ggd-download-category.display-download-category {
+    display: none;
+}
+
+.wpfd-content .head-category-ggd {
+    padding: 8px 15px !important;
+    margin: 0 0 0 0;
+    list-style: outside none none;
+    background: #fafafa;
+    font-family: "robotomedium";
+    font-size: 24px;
+    color: #888;
+}
+
+.wpfd-content .head-category-ggd > li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+@media (max-width: 640px) {
+    .wpfd-foldertree-ggd {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .wpfd-container-ggd.with_foldertree {
+        width: 100%;
+    }
+
+    .foldertreeggd-hide {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    #wpfd-ggd-box .dropblock {
+        min-height: 240px;
+    }
+
+    #wpfd-ggd-box .dropblock .viewerlink {
+        margin: 0;
+    }
+}

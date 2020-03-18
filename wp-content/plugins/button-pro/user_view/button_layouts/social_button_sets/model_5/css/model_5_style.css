@@ -1,0 +1,77 @@
+
+.btn_model_5 li {
+  float: left;
+}
+.btn_model_5 a {
+  color: #fff!important;
+}
+.btn_model_5 a:hover {
+  background: #f2f2f2;
+}
+.btn_model_5 .twitter {
+  background: #00ACED;
+}
+.btn_model_5 .twitter:hover {
+  color: #00ACED!important;
+}
+.btn_model_5 .facebook {
+  background: #3B579D;
+}
+.btn_model_5 .facebook:hover {
+  color: #3B579D!important;
+}
+.btn_model_5 .google-plus {
+  background: #DD4A3A;
+}
+.btn_model_5 .google-plus:hover {
+  color: #DD4A3A!important;
+}
+.btn_model_5 .linkedin {
+  background: #007BB6;
+}
+.btn_model_5 .linkedin:hover {
+  color: #007BB6!important;
+}
+.btn_model_5 .pinterest {
+  background: #CB2026;
+}
+.btn_model_5 .pinterest:hover {
+  color: #CB2026!important;
+}
+
+.btn_model_5 .instagram {
+  background: #5f82ac;
+}
+.btn_model_5 .instagram:hover {
+  color: #5f82ac!important;
+}
+
+.btn_model_5 .vimeo {
+  background: #67aaba;
+}
+.btn_model_5 .vimeo:hover {
+  color: #67aaba!important;
+}
+
+.btn_model_5 .skype {
+  background: #13bfff;
+}
+.btn_model_5 .skype:hover {
+  color: #13bfff!important;
+}
+
+.btn_model_5 .youtube {
+  background: #d21921;
+}
+.btn_model_5 .youtube:hover {
+  color:#d21921!important; 
+}
+
+.btn_model_5 .tumblr {
+  background:  #2d4762;
+}
+.btn_model_5 .tumblr:hover {
+  color:  #2d4762!important;
+}
+
+

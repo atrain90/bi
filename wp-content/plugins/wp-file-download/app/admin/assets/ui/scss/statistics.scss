@@ -1,0 +1,112 @@
+@import 'components/variables';
+@import 'components/mixin';
+
+@import 'components/input';
+@import 'components/select';
+
+#wpfd_statistics {
+  font-family: $option-font;
+  font-size: 16px;
+  .row-fluid {
+    display: block;
+    width: 98%;
+    .col {
+      display: block;
+      float: left;
+      width: 250px;
+      line-height: 31px;
+      padding-right: 15px;
+    }
+    .span6 {
+      width: 50%;
+      float: left;
+    }
+    .text-right {
+      text-align: right;
+    }
+  }
+  #chart_div {
+    width: 98%;
+    clear: left;
+  }
+  .input-append {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 9px;
+    vertical-align: middle;
+    font-size: 0;
+    white-space: nowrap;
+    button {
+      border: none;
+      position: absolute;
+      top: 1px;
+      right: 1px;
+      bottom: 1px;
+    }
+  }
+  span.lbl-date {
+    width: 40px;
+    display: inline-block;
+  }
+  .ju-input {
+    padding: 10px 15px;
+    line-height: 28px;
+  }
+  select.ju-input {
+    height: auto;
+    width: 100%;
+    padding: calcRem(10px) calcRem(55px) calcRem(10px) calcRem(15px);
+  }
+  .ju-material-button {
+    color: white;
+    .material-icons {
+      width: 19px;
+      height: 19px;
+      font-size: 19px;
+      vertical-align: sub;
+    }
+  }
+
+  .chzn-container {
+    border: none;
+    @include boxShadow(unset);
+  }
+  .chzn-container-multi .chzn-choices {
+    border: none;
+    @include boxShadow(unset);
+    background-image: none;
+  }
+  .chzn-container-active .chzn-choices {
+    border: none;
+    @include boxShadow(unset);
+  }
+  .message {
+    clear: both;
+    margin-top: 25px;
+    text-align: center;
+  }
+  table {
+    clear: both;
+    margin-top: 25px;
+    width: 98%;
+    border-collapse: collapse;
+    th, td {
+      line-height: 40px;
+    }
+    th a {
+      color: $heading-color;
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+      }
+      .dashicons {
+        vertical-align: sub;
+      }
+    }
+    td {
+      border: 0;
+      background: #ffffff;
+      padding: 5px 10px;
+    }
+  }
+}
